@@ -94,7 +94,7 @@ using namespace std;
 //#define HLT  // crashes run since CMSSW 5
 //#define HI   // for HI running
 #define USE_RESYNCS  // get theinfo about recyncs 
-
+  
 #define ROC_EFF
 #define Lumi
 

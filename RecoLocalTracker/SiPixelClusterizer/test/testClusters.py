@@ -1303,4 +1303,4 @@ process.p = cms.Path(process.hltPhysicsDeclared*process.d)
 #process.hltTrigReport = cms.EDAnalyzer( 'HLTrigReport',
 #    HLTriggerResults = cms.InputTag( 'TriggerResults','','' )
 #)
-#process.HLTAnalyzerEndpath = cms.EndPath( process.hltTrigReport )
+#process.HLTAnalyzerEndpath = cms.EndPath( process.hltTrigReport
