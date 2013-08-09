@@ -3,6 +3,7 @@
 // Author: Danek Kotlinski 
 // Creation Date:  Initial version. 3/06
 // Modify to work with CMSSW354, 11/03/10 d.k.
+// Add resyncs. First evrsion with Git, CMSSW.5.3.11 8/13 d.k.
 //--------------------------------------------
 #include <memory>
 #include <string>
