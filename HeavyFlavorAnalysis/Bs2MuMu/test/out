@@ -1,0 +1,3164 @@
+----------------------------------------------------------------------
+--- HFtest constructor
+--- Verbose                     : 1
+--- HLT process name            : HLT
+--- L1 GT Readout Record Label  : InputTag:  label = gtDigis, instance = 
+--- L1 GT Object Map Label      : InputTag:  label = l1L1GtObjectMap, instance = 
+--- L1 Muons Label              : InputTag:  label = hltL1extraParticles, instance = 
+--- HLTResultsLabel             : InputTag:  label = TriggerResults, instance = , process = HLT
+--- Trigger Event Label         : InputTag:  label = hltTriggerSummaryAOD, instance = , process = HLT
+----------------------------------------------------------------------
+
+ ------> Event 1
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+
+ Trigger objects 
+ This is it --> 21 hltDoubleMu4Dimuon7ForwardBsL3Filtered 0 2
+0 pt = 7.65938 eta = -1.96826 phi = 1.20456 e = 27.9487 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+1 pt = 4.46038 eta = -1.62496 phi = 0.236312 e = 11.7646 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.65938 eta -1.96826 phi 1.20456 mass -3.37175e-07
+ id 13 pt 4.46038 eta -1.62496 phi 0.236312 mass 0
+
+ ------> Event 2
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 16 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 4.79934 eta = -0.684441 phi = 0.42567 e = 5.96807 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 6
+1 pt = 4.24967 eta = -1.29573 phi = 1.47351 e = 8.34497 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 7
+ This is it --> 17 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 4.79934 eta = -0.684441 phi = 0.42567 e = 5.96807 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 6
+1 pt = 4.24967 eta = -1.29573 phi = 1.47351 e = 8.34497 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 7
+ This is it --> 20 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 4.79934 eta = -0.684441 phi = 0.42567 e = 5.96807 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 6
+1 pt = 4.24967 eta = -1.29573 phi = 1.47351 e = 8.34497 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 4.79934 eta -0.684441 phi 0.42567 mass 0
+ id 13 pt 4.24967 eta -1.29573 phi 1.47351 mass 0
+
+ ------> Event 3
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 17 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 5.02836 eta = 1.41188 phi = -0.0331591 e = 10.93 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 4.31913 eta = 1.61622 phi = -1.11957 e = 11.3003 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 18 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 5.02836 eta = 1.41188 phi = -0.0331591 e = 10.93 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 4.31913 eta = 1.61622 phi = -1.11957 e = 11.3003 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 21 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 5.02836 eta = 1.41188 phi = -0.0331591 e = 10.93 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+1 pt = 4.31913 eta = 1.61622 phi = -1.11957 e = 11.3003 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.02836 eta 1.41188 phi -0.0331591 mass -1.19209e-07
+ id 13 pt 4.31913 eta 1.61622 phi -1.11957 mass 1.19209e-07
+
+ ------> Event 4
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 11 has fired L1_Mu3p5_EG12
+Algo L1 59 has fired L1_SingleMu7
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 121 has fired L1_HTT50
+
+ HLT - tigger results 
+HLT_Mu7_Track7_Jpsi_v20 185 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 7.32447 eta 0.209486 phi 1.92892 mass 0
+
+ ------> Event 5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.18282 eta = 0.918204 phi = -2.49486 e = 10.4295 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 5.20029 eta = 0.439836 phi = 2.11476 e = 5.71146 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.18282 eta = 0.918204 phi = -2.49486 e = 10.4295 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 5.20029 eta = 0.439836 phi = 2.11476 e = 5.71146 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.18282 eta = 0.918204 phi = -2.49486 e = 10.4295 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 5.20029 eta = 0.439836 phi = 2.11476 e = 5.71146 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 5.20029 eta 0.439836 phi 2.11476 mass 0
+ id 13 pt 7.18282 eta 0.918204 phi -2.49486 mass 0
+
+ ------> Event 6
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 138 hltTauTo2MuL3Filtered 0 2
+0 pt = 10.3152 eta = -2.03098 phi = 2.40915 e = 39.9857 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 4
+1 pt = 3.38095 eta = -1.95834 phi = 2.32044 e = 12.2198 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 10.3152 eta -2.03098 phi 2.40915 mass 0
+ id 13 pt 3.38095 eta -1.95834 phi 2.32044 mass 0
+
+ ------> Event 7
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 4 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 8.7288 eta = 0.447395 phi = 0.445753 e = 9.61705 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 4
+1 pt = 9.14012 eta = 1.09524 phi = -0.488989 e = 15.1925 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 5
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 8.7288 eta = 0.447395 phi = 0.445753 e = 9.61705 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 9.14012 eta = 1.09524 phi = -0.488989 e = 15.1925 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 8.7288 eta = 0.447395 phi = 0.445753 e = 9.61705 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 9.14012 eta = 1.09524 phi = -0.488989 e = 15.1925 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 8.7288 eta = 0.447395 phi = 0.445753 e = 9.61705 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 9.14012 eta = 1.09524 phi = -0.488989 e = 15.1925 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 8.7288 eta 0.447395 phi 0.445753 mass 1.19209e-07
+ id 13 pt 9.14012 eta 1.09524 phi -0.488989 mass 0
+
+ ------> Event 8
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.78795 eta = -1.35291 phi = 1.39806 e = 16.0711 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+1 pt = 3.11957 eta = -2.02924 phi = -0.478477 e = 12.0724 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.78795 eta = -1.35291 phi = 1.39806 e = 16.0711 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+1 pt = 3.11957 eta = -2.02924 phi = -0.478477 e = 12.0724 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+
+ hltL3MuonCandidates 
+ id 13 pt 3.11957 eta -2.02924 phi -0.478477 mass 0
+ id 13 pt 7.78795 eta -1.35291 phi 1.39806 mass 2.38419e-07
+
+ ------> Event 9
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 4.17067 eta = 1.26636 phi = -0.965683 e = 7.98636 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 5.16907 eta = -0.648087 phi = -0.308397 e = 6.29315 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 4.17067 eta = 1.26636 phi = -0.965683 e = 7.98636 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 5.16907 eta = -0.648087 phi = -0.308397 e = 6.29315 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 4.17067 eta = 1.26636 phi = -0.965683 e = 7.98636 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 5.16907 eta = -0.648087 phi = -0.308397 e = 6.29315 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 4.17067 eta 1.26636 phi -0.965683 mass 0
+ id 13 pt 5.16907 eta -0.648087 phi -0.308397 mass -8.42937e-08
+
+ ------> Event 10
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.70102 eta = -0.662427 phi = -1.66533 e = 6.99826 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 3.59129 eta = 1.43399 phi = 1.04988 e = 7.96149 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.70102 eta -0.662427 phi -1.66533 mass 0
+ id 13 pt 3.59129 eta 1.43399 phi 1.04988 mass 8.42937e-08
+
+ ------> Event 11
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 12 has fired L1_Mu12er_ETM20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLT_Mu13_Mu8_v22 173 1 1 0 1 
+AlCa_RPCMuonNoTriggers_v9 443 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 12 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 9.0229 eta = -0.982156 phi = -1.31661 e = 13.736 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+1 pt = 16.305 eta = -0.519426 phi = -0.465835 e = 18.5545 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 9.0229 eta -0.982156 phi -1.31661 mass 1.68587e-07
+ id 13 pt 16.305 eta -0.519426 phi -0.465835 mass 2.38419e-07
+
+ ------> Event 12
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 63 has fired L1_SingleMu25er
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 4 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 5.38903 eta = -0.844477 phi = 1.12914 e = 7.42755 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 4
+1 pt = 9.50048 eta = -1.26932 phi = -0.407519 e = 18.2383 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 5
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 5.38903 eta = -0.844477 phi = 1.12914 e = 7.42755 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 9.50048 eta = -1.26932 phi = -0.407519 e = 18.2383 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 5.38903 eta = -0.844477 phi = 1.12914 e = 7.42755 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 9.50048 eta = -1.26932 phi = -0.407519 e = 18.2383 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 5.38903 eta = -0.844477 phi = 1.12914 e = 7.42755 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 9.50048 eta = -1.26932 phi = -0.407519 e = 18.2383 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 5.38903 eta -0.844477 phi 1.12914 mass 0
+ id 13 pt 9.50048 eta -1.26932 phi -0.407519 mass -2.38419e-07
+
+ ------> Event 13
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.56791 eta = 0.154923 phi = 0.795476 e = 7.65891 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 3.31468 eta = -1.31885 phi = 1.77936 e = 6.64024 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.56791 eta = 0.154923 phi = 0.795476 e = 7.65891 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 3.31468 eta = -1.31885 phi = 1.77936 e = 6.64024 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.56791 eta = 0.154923 phi = 0.795476 e = 7.65891 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 3.31468 eta = -1.31885 phi = 1.77936 e = 6.64024 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.56791 eta 0.154923 phi 0.795476 mass 0
+ id 13 pt 3.31468 eta -1.31885 phi 1.77936 mass -8.42937e-08
+
+ ------> Event 14
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.17966 eta = -1.5247 phi = -2.92111 e = 10.0551 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+1 pt = 4.32937 eta = -0.604554 phi = 0.203657 e = 5.14493 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 4.32937 eta -0.604554 phi 0.203657 mass -5.96046e-08
+ id 13 pt 4.17966 eta -1.5247 phi -2.92111 mass 0
+
+ ------> Event 15
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 97 has fired L1_TripleMu0_HighQ
+
+ HLT - tigger results 
+49 HLTMuonDimuonL3Filter hltJpsiMuonL3Filtered 1
+HLT_Dimuon0_Jpsi_Muon_v18 168 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltJpsiMuonL3Filtered 
+
+ Trigger objects 
+ This is it --> 26 hltJpsiMuonL3Filtered 0 2
+0 pt = 4.07115 eta = -0.905399 phi = 1.31241 e = 5.85696 id = 13 label: hltJpsiMuonL3Filtered:HLT:: 8
+1 pt = 3.68146 eta = -1.49455 phi = 1.86809 e = 8.61773 id = -13 label: hltJpsiMuonL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 3.1608 eta -1.74244 phi -0.565213 mass 0
+ id 13 pt 3.68146 eta -1.49455 phi 1.86809 mass -1.19209e-07
+ id 13 pt 4.07115 eta -0.905399 phi 1.31241 mass 0
+
+ ------> Event 16
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.07197 eta = -0.529199 phi = 1.23378 e = 8.08556 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 3.83348 eta = -2.00482 phi = -0.152771 e = 14.4896 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.07197 eta = -0.529199 phi = 1.23378 e = 8.08556 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 3.83348 eta = -2.00482 phi = -0.152771 e = 14.4896 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.07197 eta = -0.529199 phi = 1.23378 e = 8.08556 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 3.83348 eta = -2.00482 phi = -0.152771 e = 14.4896 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.07197 eta -0.529199 phi 1.23378 mass 0
+ id 13 pt 3.83348 eta -2.00482 phi -0.152771 mass 0
+
+ ------> Event 17
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.36022 eta = 1.39544 phi = 2.92643 e = 9.34059 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.14608 eta = 1.56042 phi = 0.200067 e = 10.3048 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.36022 eta 1.39544 phi 2.92643 mass 1.19209e-07
+ id 13 pt 4.14608 eta 1.56042 phi 0.200067 mass -1.19209e-07
+
+ ------> Event 18
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 7.71369 eta = -0.433393 phi = -0.0285524 e = 8.44953 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 2
+1 pt = 6.49495 eta = 0.287391 phi = -1.19581 e = 6.76502 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 3
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.71369 eta = -0.433393 phi = -0.0285524 e = 8.44953 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 6.49495 eta = 0.287391 phi = -1.19581 e = 6.76502 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.71369 eta = -0.433393 phi = -0.0285524 e = 8.44953 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 6.49495 eta = 0.287391 phi = -1.19581 e = 6.76502 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.71369 eta = -0.433393 phi = -0.0285524 e = 8.44953 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 6.49495 eta = 0.287391 phi = -1.19581 e = 6.76502 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.71369 eta -0.433393 phi -0.0285524 mass 0
+ id 13 pt 6.49495 eta 0.287391 phi -1.19581 mass 0
+
+ ------> Event 19
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 97 has fired L1_TripleMu0_HighQ
+
+ HLT - tigger results 
+49 HLTMuonDimuonL3Filter hltUpsilonMuonL3Filtered 1
+HLT_Dimuon0_Upsilon_Muon_v18 169 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltUpsilonMuonL3Filtered 
+
+ Trigger objects 
+ This is it --> 111 hltUpsilonMuonL3Filtered 0 2
+0 pt = 4.5323 eta = -2.28237 phi = 1.08908 e = 22.4393 id = -13 label: hltUpsilonMuonL3Filtered:HLT:: 6
+1 pt = 3.83568 eta = -1.4021 phi = -1.66804 e = 8.2655 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 4.5323 eta -2.28237 phi 1.08908 mass 0
+ id 13 pt 3.83568 eta -1.4021 phi -1.66804 mass 0
+ id 13 pt 1.5928 eta -1.96358 phi 1.28698 mass 0
+
+ ------> Event 20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 8.33007 eta = 0.553087 phi = -0.0737372 e = 9.63699 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 3.93002 eta = -0.356135 phi = 1.42736 e = 4.18189 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 8.33007 eta = 0.553087 phi = -0.0737372 e = 9.63699 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 3.93002 eta = -0.356135 phi = 1.42736 e = 4.18189 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 8.33007 eta = 0.553087 phi = -0.0737372 e = 9.63699 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 3.93002 eta = -0.356135 phi = 1.42736 e = 4.18189 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 8.33007 eta 0.553087 phi -0.0737372 mass 1.03238e-07
+ id 13 pt 3.93002 eta -0.356135 phi 1.42736 mass 5.96046e-08
+
+ ------> Event 21
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 7 has fired L1_DoubleEG6_HTT50
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 14 has fired L1_Mu12_EG7
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 27 has fired L1_Mu5_DoubleEG6
+Algo L1 36 has fired L1_DoubleJetC56_Eta1p74_WdEta4
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 63 has fired L1_SingleMu25er
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 76 has fired L1_DoubleJet64_Central
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 96 has fired L1_DoubleJetC56
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 121 has fired L1_HTT50
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+Algo L1 126 has fired L1_HTT75
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLT_Mu13_Mu8_v22 173 1 1 0 1 
+HLT_Mu17_Mu8_v22 174 1 1 0 1 
+HLT_Mu17_TkMu8_v14 176 1 1 0 1 
+HLT_Mu22_TkMu8_v9 178 1 1 0 1 
+HLT_Mu15_TkMu5_Onia_v1 186 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+AlCa_RPCMuonNoTriggers_v9 443 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 15 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 23.3025 eta = 0.767806 phi = -1.19953 e = 30.5153 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 24
+1 pt = 18.8585 eta = 0.828335 phi = -1.0645 e = 25.7068 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 23
+ This is it --> 26 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 23.3025 eta = 0.767806 phi = -1.19953 e = 30.5153 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 24
+1 pt = 18.8585 eta = 0.828335 phi = -1.0645 e = 25.7068 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 23
+ This is it --> 41 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 23.3025 eta = 0.767806 phi = -1.19953 e = 30.5153 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 24
+1 pt = 18.8585 eta = 0.828335 phi = -1.0645 e = 25.7068 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 23
+ This is it --> 44 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 23.3025 eta = 0.767806 phi = -1.19953 e = 30.5153 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 24
+1 pt = 18.8585 eta = 0.828335 phi = -1.0645 e = 25.7068 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 23
+
+ hltL3MuonCandidates 
+ id 13 pt 18.8585 eta 0.828335 phi -1.0645 mass -3.37175e-07
+ id 13 pt 23.3025 eta 0.767806 phi -1.19953 mass -3.37175e-07
+
+ ------> Event 22
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+
+ Trigger objects 
+ This is it --> 22 hltDoubleMu4Dimuon7ForwardBsL3Filtered 0 2
+0 pt = 8.38588 eta = 1.7407 phi = -2.90001 e = 24.6408 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 4
+1 pt = 8.181 eta = 2.03558 phi = 2.81299 e = 31.8539 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 8.38588 eta 1.7407 phi -2.90001 mass 3.37175e-07
+ id 13 pt 8.181 eta 2.03558 phi 2.81299 mass 0
+
+ ------> Event 23
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 5.48506 eta = 0.568668 phi = -2.08897 e = 6.3961 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 6
+1 pt = 5.7491 eta = 0.332071 phi = -2.58336 e = 6.06901 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 7
+ This is it --> 14 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 5.48506 eta = 0.568668 phi = -2.08897 e = 6.3961 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 6
+1 pt = 5.7491 eta = 0.332071 phi = -2.58336 e = 6.06901 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 7
+ This is it --> 24 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 5.48506 eta = 0.568668 phi = -2.08897 e = 6.3961 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 6
+1 pt = 5.7491 eta = 0.332071 phi = -2.58336 e = 6.06901 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 7
+ This is it --> 27 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 5.48506 eta = 0.568668 phi = -2.08897 e = 6.3961 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 6
+1 pt = 5.7491 eta = 0.332071 phi = -2.58336 e = 6.06901 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 5.48506 eta 0.568668 phi -2.08897 mass -8.42937e-08
+ id 13 pt 5.7491 eta 0.332071 phi -2.58336 mass 0
+
+ ------> Event 24
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 5.95592 eta = 0.0836138 phi = 0.961226 e = 5.97675 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 3.40594 eta = -1.9091 phi = 1.03015 e = 11.7424 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 5.95592 eta = 0.0836138 phi = 0.961226 e = 5.97675 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 3.40594 eta = -1.9091 phi = 1.03015 e = 11.7424 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 5.95592 eta = 0.0836138 phi = 0.961226 e = 5.97675 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 3.40594 eta = -1.9091 phi = 1.03015 e = 11.7424 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 3.40594 eta -1.9091 phi 1.03015 mass 0
+ id 13 pt 5.95592 eta 0.0836138 phi 0.961226 mass -2.98023e-08
+
+ ------> Event 25
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 16 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 6.62965 eta = 0.771429 phi = -2.04261 e = 8.7021 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 4.31096 eta = 0.78334 phi = -3.06395 e = 5.70265 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 17 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 6.62965 eta = 0.771429 phi = -2.04261 e = 8.7021 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 4.31096 eta = 0.78334 phi = -3.06395 e = 5.70265 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 20 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 6.62965 eta = 0.771429 phi = -2.04261 e = 8.7021 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+1 pt = 4.31096 eta = 0.78334 phi = -3.06395 e = 5.70265 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.62965 eta 0.771429 phi -2.04261 mass 0
+ id 13 pt 4.31096 eta 0.78334 phi -3.06395 mass -5.96046e-08
+
+ ------> Event 26
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 10 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 14.2042 eta = 0.136374 phi = -2.89461 e = 14.3365 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+1 pt = 3.7495 eta = 1.33125 phi = -0.251248 e = 7.59262 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 14.2042 eta 0.136374 phi -2.89461 mass -1.68587e-07
+ id 13 pt 3.7495 eta 1.33125 phi -0.251248 mass 0
+
+ ------> Event 27
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDoubleMu34Dimuon5CentralBsL3Filtered 
+
+ Trigger objects 
+ This is it --> 17 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 4.06836 eta = -1.53635 phi = 1.33913 e = 9.89173 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 3.46985 eta = -1.56844 phi = 3.03215 e = 8.68772 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.06836 eta -1.53635 phi 1.33913 mass 1.19209e-07
+ id 13 pt 3.46985 eta -1.56844 phi 3.03215 mass -1.19209e-07
+
+ ------> Event 28
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 97 has fired L1_TripleMu0_HighQ
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 17 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 6.70983 eta = -0.567248 phi = 2.17205 e = 7.8186 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 4.80998 eta = -0.928805 phi = 1.14728 e = 7.03822 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 5
+ This is it --> 18 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 6.70983 eta = -0.567248 phi = 2.17205 e = 7.8186 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 4.80998 eta = -0.928805 phi = 1.14728 e = 7.03822 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 5
+ This is it --> 21 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 6.70983 eta = -0.567248 phi = 2.17205 e = 7.8186 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 4
+1 pt = 4.80998 eta = -0.928805 phi = 1.14728 e = 7.03822 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 6.70983 eta -0.567248 phi 2.17205 mass 8.42937e-08
+ id 13 pt 4.80998 eta -0.928805 phi 1.14728 mass -8.42937e-08
+
+ ------> Event 29
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.60004 eta = -1.00081 phi = -1.36294 e = 8.64665 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+1 pt = 6.63332 eta = -1.57307 phi = 0.0150203 e = 16.679 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 5.60004 eta -1.00081 phi -1.36294 mass 1.19209e-07
+ id 13 pt 6.63332 eta -1.57307 phi 0.0150203 mass -1.68587e-07
+
+ ------> Event 30
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 14 has fired L1_Mu12_EG7
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 11.2965 eta = 1.73223 phi = 0.43676 e = 32.9299 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+1 pt = 5.55164 eta = 0.898904 phi = 2.93572 e = 7.94975 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 11.2965 eta 1.73223 phi 0.43676 mass -4.76837e-07
+ id 13 pt 5.55164 eta 0.898904 phi 2.93572 mass 0
+
+ ------> Event 31
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 8.12 eta = 0.76879 phi = 1.89228 e = 10.6402 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 5.83728 eta = 0.560675 phi = 0.29476 e = 6.77906 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 8.12 eta = 0.76879 phi = 1.89228 e = 10.6402 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 5.83728 eta = 0.560675 phi = 0.29476 e = 6.77906 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 8.12 eta = 0.76879 phi = 1.89228 e = 10.6402 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 5.83728 eta = 0.560675 phi = 0.29476 e = 6.77906 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 8.12 eta 0.76879 phi 1.89228 mass 1.19209e-07
+ id 13 pt 5.83728 eta 0.560675 phi 0.29476 mass 0
+
+ ------> Event 32
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 145 hltTauTo2MuL3Filtered 0 2
+0 pt = 10.8655 eta = 1.93784 phi = -1.11488 e = 38.5059 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 4
+1 pt = 4.69212 eta = 1.94075 phi = -1.02775 e = 16.6747 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 10.8655 eta 1.93784 phi -1.11488 mass 0
+ id 13 pt 4.69212 eta 1.94075 phi -1.02775 mass 0
+
+ ------> Event 33
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 18 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 8.90562 eta = 0.44283 phi = -0.799154 e = 9.79317 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 8.60625 eta = 0.194531 phi = -1.41576 e = 8.76961 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 19 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 8.90562 eta = 0.44283 phi = -0.799154 e = 9.79317 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 2
+1 pt = 8.60625 eta = 0.194531 phi = -1.41576 e = 8.76961 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 3
+ This is it --> 22 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 8.90562 eta = 0.44283 phi = -0.799154 e = 9.79317 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+1 pt = 8.60625 eta = 0.194531 phi = -1.41576 e = 8.76961 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 8.90562 eta 0.44283 phi -0.799154 mass 0
+ id 13 pt 8.60625 eta 0.194531 phi -1.41576 mass 0
+
+ ------> Event 34
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 8.60295 eta = -0.149956 phi = 1.23952 e = 8.69986 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 2
+1 pt = 3.9582 eta = -1.62568 phi = 0.899054 e = 10.447 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 3
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 8.60295 eta = -0.149956 phi = 1.23952 e = 8.69986 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 3.9582 eta = -1.62568 phi = 0.899054 e = 10.447 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 8.60295 eta = -0.149956 phi = 1.23952 e = 8.69986 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 3.9582 eta = -1.62568 phi = 0.899054 e = 10.447 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 8.60295 eta = -0.149956 phi = 1.23952 e = 8.69986 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 3.9582 eta = -1.62568 phi = 0.899054 e = 10.447 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 8.60295 eta -0.149956 phi 1.23952 mass 0
+ id 13 pt 3.9582 eta -1.62568 phi 0.899054 mass 1.19209e-07
+
+ ------> Event 35
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 57 has fired L1_SingleMu3
+Algo L1 83 has fired L1_DoubleJet24_v1
+
+ HLT - tigger results 
+HLT_Mu5_Track2_Jpsi_v21 183 1 1 0 1 
+HLT_Mu5_Track3p5_Jpsi_v7 184 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 7.92597 eta -1.46184 phi -1.14517 mass -2.38419e-07
+
+ ------> Event 36
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 85 has fired L1_Mu7er_ETM26
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+49 HLTMuonDimuonL3Filter hltUpsilonMuonL3Filtered 1
+HLT_Dimuon0_Upsilon_Muon_v18 169 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltUpsilonMuonL3Filtered hltDimuon3p5SameSignL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 1 2
+0 pt = 5.12622 eta = 0.443065 phi = -1.34756 e = 5.63766 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 6
+1 pt = 4.99521 eta = 0.697441 phi = -2.54906 e = 6.26016 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 8
+ This is it --> 141 hltUpsilonMuonL3Filtered 0 3
+0 pt = 5.12622 eta = 0.443065 phi = -1.34756 e = 5.63766 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 6
+1 pt = 4.42624 eta = -0.585406 phi = 1.37627 e = 5.20658 id = -13 label: hltUpsilonMuonL3Filtered:HLT:: 7
+2 pt = 4.99521 eta = 0.697441 phi = -2.54906 e = 6.26016 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 8
+
+ hltL3MuonCandidates 
+ id 13 pt 5.12622 eta 0.443065 phi -1.34756 mass 0
+ id 13 pt 4.42624 eta -0.585406 phi 1.37627 mass 5.96046e-08
+ id 13 pt 4.99521 eta 0.697441 phi -2.54906 mass 8.42937e-08
+
+ ------> Event 37
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+AlCa_EcalPi0EBonly_v6 438 1 1 0 2 
+AlCa_RPCMuonNoTriggers_v9 443 1 1 0 2 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 156 hltTauTo2MuL3Filtered 0 2
+0 pt = 14.3318 eta = -1.64643 phi = -0.539584 e = 38.5606 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 4
+1 pt = 7.52166 eta = -1.49756 phi = -0.579858 e = 17.6549 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 14.3318 eta -1.64643 phi -0.539584 mass 0
+ id 13 pt 7.52166 eta -1.49756 phi -0.579858 mass 0
+
+ ------> Event 38
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 7.70589 eta = 1.34671 phi = 0.507169 e = 15.8157 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 25
+1 pt = 6.51215 eta = 0.941751 phi = 0.358162 e = 9.61979 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 26
+ This is it --> 12 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 7.70589 eta = 1.34671 phi = 0.507169 e = 15.8157 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 25
+1 pt = 6.51215 eta = 0.941751 phi = 0.358162 e = 9.61979 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 26
+ This is it --> 22 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 7.70589 eta = 1.34671 phi = 0.507169 e = 15.8157 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 25
+1 pt = 6.51215 eta = 0.941751 phi = 0.358162 e = 9.61979 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 26
+ This is it --> 25 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 7.70589 eta = 1.34671 phi = 0.507169 e = 15.8157 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 25
+1 pt = 6.51215 eta = 0.941751 phi = 0.358162 e = 9.61979 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 26
+
+ hltL3MuonCandidates 
+ id 13 pt 7.70589 eta 1.34671 phi 0.507169 mass -1.68587e-07
+ id 13 pt 6.51215 eta 0.941751 phi 0.358162 mass 1.19209e-07
+
+ ------> Event 39
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 7.05777 eta = 0.517329 phi = 0.3331 e = 8.02345 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 3.94546 eta = 0.49553 phi = -1.20776 e = 4.43986 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.05777 eta 0.517329 phi 0.3331 mass 0
+ id 13 pt 3.94546 eta 0.49553 phi -1.20776 mass 0
+
+ ------> Event 40
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 3.66789 eta = -1.94269 phi = -1.1946 e = 13.0592 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.50531 eta = 0.731348 phi = 0.69412 e = 5.76486 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 3.66789 eta -1.94269 phi -1.1946 mass 0
+ id 13 pt 4.50531 eta 0.731348 phi 0.69412 mass 0
+
+ ------> Event 41
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.1877 eta = 0.278634 phi = 1.81094 e = 6.42945 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 2.59701 eta = -1.91966 phi = 1.40744 e = 9.04445 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 4 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.1877 eta = 0.278634 phi = 1.81094 e = 6.42945 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 2.59701 eta = -1.91966 phi = 1.40744 e = 9.04445 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 2.59701 eta -1.91966 phi 1.40744 mass 1.19209e-07
+ id 13 pt 6.1877 eta 0.278634 phi 1.81094 mass 0
+
+ ------> Event 42
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 8.31848 eta = 0.645643 phi = -0.724507 e = 10.1133 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 35
+1 pt = 7.89145 eta = 0.506377 phi = -0.364492 e = 8.925 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 34
+ This is it --> 13 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 8.31848 eta = 0.645643 phi = -0.724507 e = 10.1133 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 35
+1 pt = 7.89145 eta = 0.506377 phi = -0.364492 e = 8.925 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 34
+ This is it --> 23 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 8.31848 eta = 0.645643 phi = -0.724507 e = 10.1133 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 35
+1 pt = 7.89145 eta = 0.506377 phi = -0.364492 e = 8.925 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 34
+ This is it --> 26 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 8.31848 eta = 0.645643 phi = -0.724507 e = 10.1133 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 35
+1 pt = 7.89145 eta = 0.506377 phi = -0.364492 e = 8.925 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 34
+
+ hltL3MuonCandidates 
+ id 13 pt 7.89145 eta 0.506377 phi -0.364492 mass 1.19209e-07
+ id 13 pt 8.31848 eta 0.645643 phi -0.724507 mass -1.19209e-07
+
+ ------> Event 43
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 59 has fired L1_SingleMu7
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+HLT_Mu13_Mu8_v22 173 1 1 0 1 
+HLT_Mu17_Mu8_v22 174 1 1 0 1 
+HLT_Mu17_TkMu8_v14 176 1 1 0 1 
+HLT_Mu7_Track7_Jpsi_v20 185 1 1 0 1 
+HLT_Mu15_TkMu5_Onia_v1 186 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 10.9111 eta -0.696335 phi 2.59368 mass 0
+ id 13 pt 18.8925 eta -0.577621 phi 2.40943 mass 0
+
+ ------> Event 44
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.64886 eta = -0.233086 phi = 1.35104 e = 5.80301 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+1 pt = 8.57808 eta = 0.794911 phi = -1.01481 e = 11.434 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 8.57808 eta 0.794911 phi -1.01481 mass 1.68587e-07
+ id 13 pt 5.64886 eta -0.233086 phi 1.35104 mass 0
+
+ ------> Event 45
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 130 hltTauTo2MuL3Filtered 0 2
+0 pt = 6.38869 eta = 0.588728 phi = -1.00497 e = 7.52821 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 2
+1 pt = 3.45017 eta = 0.813718 phi = -0.989886 e = 4.65685 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.38869 eta 0.588728 phi -1.00497 mass 0
+ id 13 pt 3.45017 eta 0.813718 phi -0.989886 mass 0
+
+ ------> Event 46
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 6.96144 eta = -0.467367 phi = 0.54633 e = 7.73569 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 2
+1 pt = 8.62141 eta = 0.558318 phi = 1.41214 e = 10.0004 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 3
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.96144 eta = -0.467367 phi = 0.54633 e = 7.73569 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 8.62141 eta = 0.558318 phi = 1.41214 e = 10.0004 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.96144 eta = -0.467367 phi = 0.54633 e = 7.73569 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 8.62141 eta = 0.558318 phi = 1.41214 e = 10.0004 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 6.96144 eta = -0.467367 phi = 0.54633 e = 7.73569 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 8.62141 eta = 0.558318 phi = 1.41214 e = 10.0004 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.96144 eta -0.467367 phi 0.54633 mass -8.42937e-08
+ id 13 pt 8.62141 eta 0.558318 phi 1.41214 mass 0
+
+ ------> Event 47
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 3.58586 eta = -1.39314 phi = 0.196725 e = 7.66618 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 5.59171 eta = 0.00954591 phi = 0.762223 e = 5.59196 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 3.58586 eta -1.39314 phi 0.196725 mass -8.42937e-08
+ id 13 pt 5.59171 eta 0.00954591 phi 0.762223 mass 4.14831e-08
+
+ ------> Event 48
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.09343 eta = -0.618201 phi = 0.102078 e = 6.09811 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+1 pt = 3.81563 eta = 1.38757 phi = 1.59518 e = 8.11736 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 3.81563 eta 1.38757 phi 1.59518 mass 1.68587e-07
+ id 13 pt 5.09343 eta -0.618201 phi 0.102078 mass 0
+
+ ------> Event 49
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 7 has fired L1_DoubleEG6_HTT50
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 27 has fired L1_Mu5_DoubleEG6
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 121 has fired L1_HTT50
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_EcalPi0EBonly_v6 438 1 1 0 2 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.16809 eta = -1.69273 phi = 0.259526 e = 11.7088 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.23372 eta = -1.6945 phi = 1.84937 e = 11.9128 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.16809 eta -1.69273 phi 0.259526 mass 0
+ id 13 pt 4.23372 eta -1.6945 phi 1.84937 mass 0
+
+ ------> Event 50
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 4 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 13.4761 eta = 0.142008 phi = 0.754646 e = 13.6122 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 4
+1 pt = 6.51455 eta = -0.149772 phi = 1.76135 e = 6.58776 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 5
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 13.4761 eta = 0.142008 phi = 0.754646 e = 13.6122 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 6.51455 eta = -0.149772 phi = 1.76135 e = 6.58776 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 13.4761 eta = 0.142008 phi = 0.754646 e = 13.6122 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 6.51455 eta = -0.149772 phi = 1.76135 e = 6.58776 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 13.4761 eta = 0.142008 phi = 0.754646 e = 13.6122 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 6.51455 eta = -0.149772 phi = 1.76135 e = 6.58776 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 13.4761 eta 0.142008 phi 0.754646 mass -1.19209e-07
+ id 13 pt 6.51455 eta -0.149772 phi 1.76135 mass -8.42937e-08
+
+ ------> Event 51
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.1923 eta = 0.0612213 phi = 0.788939 e = 7.20579 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 4.67748 eta = -0.850188 phi = 2.18385 e = 6.47228 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.1923 eta = 0.0612213 phi = 0.788939 e = 7.20579 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 4.67748 eta = -0.850188 phi = 2.18385 e = 6.47228 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.1923 eta = 0.0612213 phi = 0.788939 e = 7.20579 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 4.67748 eta = -0.850188 phi = 2.18385 e = 6.47228 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 4.67748 eta -0.850188 phi 2.18385 mass -8.42937e-08
+ id 13 pt 7.1923 eta 0.0612213 phi 0.788939 mass 0
+
+ ------> Event 52
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 5 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 10.6323 eta = 0.270604 phi = -0.346366 e = 11.0239 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 5
+1 pt = 12.38 eta = 0.234574 phi = -1.20879 e = 12.7222 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 4
+ This is it --> 11 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 10.6323 eta = 0.270604 phi = -0.346366 e = 11.0239 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+1 pt = 12.38 eta = 0.234574 phi = -1.20879 e = 12.7222 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+ This is it --> 13 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 10.6323 eta = 0.270604 phi = -0.346366 e = 11.0239 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+1 pt = 12.38 eta = 0.234574 phi = -1.20879 e = 12.7222 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+ This is it --> 15 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 10.6323 eta = 0.270604 phi = -0.346366 e = 11.0239 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+1 pt = 12.38 eta = 0.234574 phi = -1.20879 e = 12.7222 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+
+ hltL3MuonCandidates 
+ id 13 pt 12.38 eta 0.234574 phi -1.20879 mass -1.68587e-07
+ id 13 pt 10.6323 eta 0.270604 phi -0.346366 mass 0
+
+ ------> Event 53
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.86594 eta = 1.39556 phi = 2.51908 e = 12.5676 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+1 pt = 3.76734 eta = -1.95219 phi = -0.227371 e = 13.5361 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 3.76734 eta -1.95219 phi -0.227371 mass -2.38419e-07
+ id 13 pt 5.86594 eta 1.39556 phi 2.51908 mass -1.68587e-07
+
+ ------> Event 54
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.09469 eta = 0.84431 phi = 1.11136 e = 8.39918 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 4.49796 eta = 1.54116 phi = -0.575426 e = 10.9843 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.09469 eta = 0.84431 phi = 1.11136 e = 8.39918 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 4.49796 eta = 1.54116 phi = -0.575426 e = 10.9843 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.09469 eta 0.84431 phi 1.11136 mass -1.19209e-07
+ id 13 pt 4.49796 eta 1.54116 phi -0.575426 mass 0
+
+ ------> Event 55
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+49 HLTMuonDimuonL3Filter hltUpsilonMuonL3Filtered 1
+HLT_Dimuon0_Upsilon_Muon_v18 169 1 1 0 1 
+HLT_TripleMu5_v19 180 1 1 0 1 
+HLT_DoubleMu5_IsoMu5_v20 181 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 5 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered hltUpsilonMuonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon11UpsilonL3Filtered 3 3
+0 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65786 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 6
+1 pt = 9.27138 eta = -0.97197 phi = -2.39721 e = 14.0067 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 8
+2 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65787 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 7
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 3
+0 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65786 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 6
+1 pt = 9.27138 eta = -0.97197 phi = -2.39721 e = 14.0067 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 8
+2 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65787 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 7
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 3
+0 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65786 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 6
+1 pt = 9.27138 eta = -0.97197 phi = -2.39721 e = 14.0067 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 8
+2 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65787 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 7
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 3
+0 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65786 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 6
+1 pt = 9.27138 eta = -0.97197 phi = -2.39721 e = 14.0067 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 8
+2 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65787 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 7
+ This is it --> 147 hltUpsilonMuonL3Filtered 4 3
+0 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65786 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 6
+1 pt = 9.27138 eta = -0.97197 phi = -2.39721 e = 14.0067 id = -13 label: hltUpsilonMuonL3Filtered:HLT:: 8
+2 pt = 5.50553 eta = -0.636217 phi = -1.02621 e = 6.65787 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 5.50553 eta -0.636217 phi -1.02621 mass 0
+ id 13 pt 5.50553 eta -0.636217 phi -1.02621 mass 8.42937e-08
+ id 13 pt 9.27138 eta -0.97197 phi -2.39721 mass 0
+
+ ------> Event 56
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 12 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 4.37377 eta = 1.33451 phi = 0.796988 e = 8.88184 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 43
+1 pt = 4.02577 eta = 1.86381 phi = 1.31172 e = 13.2917 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 44
+ This is it --> 22 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 4.37377 eta = 1.33451 phi = 0.796988 e = 8.88184 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 43
+1 pt = 4.02577 eta = 1.86381 phi = 1.31172 e = 13.2917 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 44
+ This is it --> 25 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 4.37377 eta = 1.33451 phi = 0.796988 e = 8.88184 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 43
+1 pt = 4.02577 eta = 1.86381 phi = 1.31172 e = 13.2917 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 44
+
+ hltL3MuonCandidates 
+ id 13 pt 4.37377 eta 1.33451 phi 0.796988 mass 0
+ id 13 pt 4.02577 eta 1.86381 phi 1.31172 mass 0
+
+ ------> Event 57
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_EcalPi0EEonly_v6 439 1 1 0 1 
+AlCa_EcalEtaEEonly_v6 441 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.23354 eta = -1.00627 phi = 0.914653 e = 8.11452 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 5.02899 eta = 1.77859 phi = -0.152958 e = 15.3142 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.23354 eta -1.00627 phi 0.914653 mass 1.19209e-07
+ id 13 pt 5.02899 eta 1.77859 phi -0.152958 mass 0
+
+ ------> Event 58
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.99838 eta = 1.5798 phi = 2.24961 e = 15.1759 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 5.27713 eta = 0.0405294 phi = 0.619402 e = 5.28147 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.99838 eta 1.5798 phi 2.24961 mass 0
+ id 13 pt 5.27713 eta 0.0405294 phi 0.619402 mass 5.96046e-08
+
+ ------> Event 59
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 6.04838 eta = 0.934055 phi = 2.16642 e = 8.88435 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 50
+1 pt = 5.37193 eta = 0.476554 phi = 2.40608 e = 5.99356 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 51
+ This is it --> 14 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 6.04838 eta = 0.934055 phi = 2.16642 e = 8.88435 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 50
+1 pt = 5.37193 eta = 0.476554 phi = 2.40608 e = 5.99356 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 51
+ This is it --> 24 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 6.04838 eta = 0.934055 phi = 2.16642 e = 8.88435 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 50
+1 pt = 5.37193 eta = 0.476554 phi = 2.40608 e = 5.99356 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 51
+ This is it --> 27 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 6.04838 eta = 0.934055 phi = 2.16642 e = 8.88435 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 50
+1 pt = 5.37193 eta = 0.476554 phi = 2.40608 e = 5.99356 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 51
+
+ hltL3MuonCandidates 
+ id 13 pt 6.04838 eta 0.934055 phi 2.16642 mass 0
+ id 13 pt 5.37193 eta 0.476554 phi 2.40608 mass 0
+
+ ------> Event 60
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 14 has fired L1_Mu12_EG7
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 63 has fired L1_SingleMu25er
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 12 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 32.5277 eta = -1.08057 phi = -1.41035 e = 53.4391 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 26
+1 pt = 9.01734 eta = -1.2382 phi = -1.48996 e = 16.8593 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 27
+ This is it --> 23 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 32.5277 eta = -1.08057 phi = -1.41035 e = 53.4391 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 26
+1 pt = 9.01734 eta = -1.2382 phi = -1.48996 e = 16.8593 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 27
+ This is it --> 33 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 32.5277 eta = -1.08057 phi = -1.41035 e = 53.4391 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 26
+1 pt = 9.01734 eta = -1.2382 phi = -1.48996 e = 16.8593 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 27
+ This is it --> 36 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 32.5277 eta = -1.08057 phi = -1.41035 e = 53.4391 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 26
+1 pt = 9.01734 eta = -1.2382 phi = -1.48996 e = 16.8593 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 27
+
+ hltL3MuonCandidates 
+ id 13 pt 32.5277 eta -1.08057 phi -1.41035 mass 0
+ id 13 pt 9.01734 eta -1.2382 phi -1.48996 mass 0
+
+ ------> Event 61
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_EcalPi0EEonly_v6 439 1 1 0 1 
+AlCa_EcalEtaEEonly_v6 441 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.72841 eta = 1.25654 phi = 0.90149 e = 8.97899 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 8
+1 pt = 4.0384 eta = -1.38655 phi = -2.28124 e = 8.58352 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 6
+
+ hltL3MuonCandidates 
+ id 13 pt 4.0384 eta -1.38655 phi -2.28124 mass 1.19209e-07
+ id 13 pt 3.88539 eta -2.15867 phi 1.33882 mass -2.38419e-07
+ id 13 pt 4.72841 eta 1.25654 phi 0.90149 mass 0
+
+ ------> Event 62
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.29666 eta = 0.569711 phi = 1.77194 e = 7.34645 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 4.77292 eta = -0.530905 phi = 3.12833 e = 5.46152 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.29666 eta = 0.569711 phi = 1.77194 e = 7.34645 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 4.77292 eta = -0.530905 phi = 3.12833 e = 5.46152 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 6.29666 eta = 0.569711 phi = 1.77194 e = 7.34645 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 4.77292 eta = -0.530905 phi = 3.12833 e = 5.46152 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 4.77292 eta -0.530905 phi 3.12833 mass -6.664e-08
+ id 13 pt 6.29666 eta 0.569711 phi 1.77194 mass 0
+
+ ------> Event 63
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 17 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 6.42301 eta = 0.929935 phi = -1.40332 e = 9.40625 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 3
+1 pt = 4.35808 eta = 0.0796269 phi = -2.04936 e = 4.3719 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 2
+ This is it --> 18 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 6.42301 eta = 0.929935 phi = -1.40332 e = 9.40625 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 3
+1 pt = 4.35808 eta = 0.0796269 phi = -2.04936 e = 4.3719 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 2
+ This is it --> 21 hltDoubleMu4Dimuon7ForwardBsL3Filtered 2 2
+0 pt = 6.42301 eta = 0.929935 phi = -1.40332 e = 9.40625 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+1 pt = 4.35808 eta = 0.0796269 phi = -2.04936 e = 4.3719 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 4.35808 eta 0.0796269 phi -2.04936 mass -5.96046e-08
+ id 13 pt 6.42301 eta 0.929935 phi -1.40332 mass 1.19209e-07
+
+ ------> Event 64
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 57 has fired L1_SingleMu3
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 85 has fired L1_Mu7er_ETM26
+
+ HLT - tigger results 
+HLT_Mu5_Track2_Jpsi_v21 183 1 1 0 1 
+HLT_Mu5_Track3p5_Jpsi_v7 184 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 10.8168 eta 0.34972 phi -0.126036 mass -1.19209e-07
+
+ ------> Event 65
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 121 has fired L1_HTT50
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+49 HLTMuonDimuonL3Filter hltJpsiMuonL3Filtered 1
+HLT_Dimuon0_Jpsi_Muon_v18 168 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 5 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered hltJpsiMuonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 9.01971 eta = -1.37581 phi = -3.06748 e = 18.9906 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 73
+1 pt = 4.75894 eta = -1.64548 phi = -2.6621 e = 12.793 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 74
+ This is it --> 13 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 9.01971 eta = -1.37581 phi = -3.06748 e = 18.9906 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 73
+1 pt = 4.75894 eta = -1.64548 phi = -2.6621 e = 12.793 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 74
+ This is it --> 23 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 9.01971 eta = -1.37581 phi = -3.06748 e = 18.9906 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 73
+1 pt = 4.75894 eta = -1.64548 phi = -2.6621 e = 12.793 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 74
+ This is it --> 26 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 9.01971 eta = -1.37581 phi = -3.06748 e = 18.9906 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 73
+1 pt = 4.75894 eta = -1.64548 phi = -2.6621 e = 12.793 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 74
+ This is it --> 29 hltJpsiMuonL3Filtered 4 2
+0 pt = 9.01971 eta = -1.37581 phi = -3.06748 e = 18.9906 id = 13 label: hltJpsiMuonL3Filtered:HLT:: 73
+1 pt = 4.75894 eta = -1.64548 phi = -2.6621 e = 12.793 id = -13 label: hltJpsiMuonL3Filtered:HLT:: 74
+
+ hltL3MuonCandidates 
+ id 13 pt 9.01971 eta -1.37581 phi -3.06748 mass 2.38419e-07
+ id 13 pt 4.75894 eta -1.64548 phi -2.6621 mass 0
+ id 13 pt 8.10434 eta -1.42927 phi -3.09798 mass -2.38419e-07
+
+ ------> Event 66
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLT_Mu5_L2Mu3_Jpsi_v8 182 1 1 0 100 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon10JpsiL3Filtered 1 2
+0 pt = 8.76544 eta = 1.31999 phi = -2.443 e = 17.577 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 4
+1 pt = 5.82302 eta = 1.13161 phi = -2.04811 e = 9.96654 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon8JpsiL3Filtered 0 2
+0 pt = 8.76544 eta = 1.31999 phi = -2.443 e = 17.577 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 4
+1 pt = 5.82302 eta = 1.13161 phi = -2.04811 e = 9.96654 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 8.76544 eta 1.31999 phi -2.443 mass 2.38419e-07
+ id 13 pt 5.82302 eta 1.13161 phi -2.04811 mass 1.19209e-07
+
+ ------> Event 67
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+AlCa_EcalPi0EEonly_v6 439 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 5.79931 eta = 1.05388 phi = -0.366021 e = 9.32918 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 5.88616 eta = 0.428444 phi = -2.06703 e = 6.43472 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 5.79931 eta = 1.05388 phi = -0.366021 e = 9.32918 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 5.88616 eta = 0.428444 phi = -2.06703 e = 6.43472 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.79931 eta 1.05388 phi -0.366021 mass 1.19209e-07
+ id 13 pt 5.88616 eta 0.428444 phi -2.06703 mass 0
+
+ ------> Event 68
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 59 has fired L1_SingleMu7
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 16 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 6.28466 eta = -1.04807 phi = 1.84251 e = 10.0641 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 3.51753 eta = -0.444256 phi = 2.97313 e = 3.87039 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 5
+ This is it --> 17 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 6.28466 eta = -1.04807 phi = 1.84251 e = 10.0641 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 3.51753 eta = -0.444256 phi = 2.97313 e = 3.87039 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 6.28466 eta -1.04807 phi 1.84251 mass 0
+ id 13 pt 3.51753 eta -0.444256 phi 2.97313 mass 0
+
+ ------> Event 69
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 6.00726 eta = 1.9628 phi = -1.20189 e = 21.8054 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 3.90078 eta = 1.80694 phi = 1.71434 e = 12.2016 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.00726 eta 1.9628 phi -1.20189 mass 2.38419e-07
+ id 13 pt 3.90078 eta 1.80694 phi 1.71434 mass -2.38419e-07
+
+ ------> Event 70
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 129 hltTauTo2MuL3Filtered 0 2
+0 pt = 3.10358 eta = 1.31646 phi = -0.0753244 e = 6.20449 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 2
+1 pt = 3.52784 eta = 1.54823 phi = 0.0786989 e = 8.67104 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 3.10358 eta 1.31646 phi -0.0753244 mass -8.42937e-08
+ id 13 pt 3.52784 eta 1.54823 phi 0.0786989 mass 0
+
+ ------> Event 71
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.74144 eta = -0.637145 phi = -0.251873 e = 5.73684 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 5.21793 eta = 0.306548 phi = -0.53089 e = 5.46502 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.74144 eta -0.637145 phi -0.251873 mass 0
+ id 13 pt 5.21793 eta 0.306548 phi -0.53089 mass 0
+
+ ------> Event 72
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 138 hltTauTo2MuL3Filtered 0 2
+0 pt = 11.9392 eta = 1.93541 phi = -1.56131 e = 42.2122 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 4
+1 pt = 2.85782 eta = 1.91561 phi = -1.4276 e = 9.9142 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 11.9392 eta 1.93541 phi -1.56131 mass 4.76837e-07
+ id 13 pt 2.85782 eta 1.91561 phi -1.4276 mass 0
+
+ ------> Event 73
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 3.29922 eta = -1.41179 phi = -1.29245 e = 7.17083 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 5.73306 eta = 0.510489 phi = -2.33418 e = 6.49644 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 3.29922 eta = -1.41179 phi = -1.29245 e = 7.17083 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 5.73306 eta = 0.510489 phi = -2.33418 e = 6.49644 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 3.29922 eta = -1.41179 phi = -1.29245 e = 7.17083 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 5.73306 eta = 0.510489 phi = -2.33418 e = 6.49644 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 5.73306 eta 0.510489 phi -2.33418 mass 0
+ id 13 pt 3.29922 eta -1.41179 phi -1.29245 mass 0
+
+ ------> Event 74
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 14 has fired L1_Mu12_EG7
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 158 hltTauTo2MuL3Filtered 0 2
+0 pt = 14.0507 eta = -0.461042 phi = 1.46067 e = 15.5706 id = -13 label: hltTauTo2MuL3Filtered:HLT:: 4
+1 pt = 5.24727 eta = -0.526993 phi = 1.45512 e = 5.99293 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 14.0507 eta -0.461042 phi 1.46067 mass -1.68587e-07
+ id 13 pt 5.24727 eta -0.526993 phi 1.45512 mass 0
+
+ ------> Event 75
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 25 has fired L1_DoubleMu5_EG5
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 36 has fired L1_DoubleJetC56_Eta1p74_WdEta4
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 96 has fired L1_DoubleJetC56
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 121 has fired L1_HTT50
+Algo L1 124 has fired L1_DoubleMu_12_5
+Algo L1 126 has fired L1_HTT75
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 12 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.40426 eta = -0.91717 phi = 2.30541 e = 7.84117 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 8
+1 pt = 4.29545 eta = -0.214557 phi = -0.344963 e = 4.3947 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 7.00329 eta -1.05004 phi 2.30701 mass -1.19209e-07
+ id 13 pt 4.29545 eta -0.214557 phi -0.344963 mass 5.96046e-08
+ id 13 pt 5.40426 eta -0.91717 phi 2.30541 mass 0
+
+ ------> Event 76
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 3.6047 eta = -1.48723 phi = -2.29872 e = 8.38238 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 3.7065 eta = 0.893487 phi = -1.97742 e = 5.28707 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 4 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 3.6047 eta = -1.48723 phi = -2.29872 e = 8.38238 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 3.7065 eta = 0.893487 phi = -1.97742 e = 5.28707 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 3.6047 eta -1.48723 phi -2.29872 mass -1.19209e-07
+ id 13 pt 3.7065 eta 0.893487 phi -1.97742 mass 0
+
+ ------> Event 77
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.5876 eta = -0.380235 phi = 1.59736 e = 7.06958 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 6.21042 eta = -0.731082 phi = -3.09918 e = 7.94535 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.5876 eta = -0.380235 phi = 1.59736 e = 7.06958 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 6.21042 eta = -0.731082 phi = -3.09918 e = 7.94535 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 6.5876 eta = -0.380235 phi = 1.59736 e = 7.06958 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 6.21042 eta = -0.731082 phi = -3.09918 e = 7.94535 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 6.5876 eta -0.380235 phi 1.59736 mass 0
+ id 13 pt 6.21042 eta -0.731082 phi -3.09918 mass -8.42937e-08
+
+ ------> Event 78
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 57 has fired L1_SingleMu3
+Algo L1 83 has fired L1_DoubleJet24_v1
+
+ HLT - tigger results 
+HLT_Mu5_Track2_Jpsi_v21 183 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 7.36675 eta 1.28932 phi 0.619294 mass 0
+
+ ------> Event 79
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 122 has fired L1_SingleMu18er
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu34Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3_4_Dimuon5_Bs_Central_v5 151 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1
+HLT_DoubleMu3p5_4_Dimuon5_Bs_Central_v5 152 1 1 0 1 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+AlCa_RPCMuonNormalisation_v9 445 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDoubleMu34Dimuon5CentralBsL3Filtered hltDoubleMu3p54Dimuon5CentralBsL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 18 hltDoubleMu34Dimuon5CentralBsL3Filtered 0 2
+0 pt = 13.2249 eta = -0.866736 phi = -2.96724 e = 18.5112 id = -13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 3.73963 eta = -1.49805 phi = -2.68079 e = 8.7816 id = 13 label: hltDoubleMu34Dimuon5CentralBsL3Filtered:HLT:: 5
+ This is it --> 19 hltDoubleMu3p54Dimuon5CentralBsL3Filtered 1 2
+0 pt = 13.2249 eta = -0.866736 phi = -2.96724 e = 18.5112 id = -13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 4
+1 pt = 3.73963 eta = -1.49805 phi = -2.68079 e = 8.7816 id = 13 label: hltDoubleMu3p54Dimuon5CentralBsL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 13.2249 eta -0.866736 phi -2.96724 mass -2.38419e-07
+ id 13 pt 3.73963 eta -1.49805 phi -2.68079 mass -1.19209e-07
+
+ ------> Event 80
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 4 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 10.8112 eta = 1.1012 phi = -2.10477 e = 18.0559 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 4
+1 pt = 7.74172 eta = 1.46765 phi = 3.06718 e = 17.6879 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 5
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 10.8112 eta = 1.1012 phi = -2.10477 e = 18.0559 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 7.74172 eta = 1.46765 phi = 3.06718 e = 17.6879 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 10.8112 eta = 1.1012 phi = -2.10477 e = 18.0559 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 7.74172 eta = 1.46765 phi = 3.06718 e = 17.6879 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+ This is it --> 14 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 10.8112 eta = 1.1012 phi = -2.10477 e = 18.0559 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 4
+1 pt = 7.74172 eta = 1.46765 phi = 3.06718 e = 17.6879 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 10.8112 eta 1.1012 phi -2.10477 mass -2.38419e-07
+ id 13 pt 7.74172 eta 1.46765 phi 3.06718 mass 0
+
+ ------> Event 81
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 12 has fired L1_Mu12er_ETM20
+Algo L1 14 has fired L1_Mu12_EG7
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 57 has fired L1_SingleMu3
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 84 has fired L1_Mu7er_ETM20
+Algo L1 85 has fired L1_Mu7er_ETM26
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 121 has fired L1_HTT50
+
+ HLT - tigger results 
+HLT_Mu5_Track2_Jpsi_v21 183 1 1 0 1 
+HLT_Mu5_Track3p5_Jpsi_v7 184 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+0 0 : 
+
+ Trigger objects 
+
+ hltL3MuonCandidates 
+ id 13 pt 12.3557 eta 0.24363 phi 2.58817 mass 0
+
+ ------> Event 82
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 7.12235 eta = -2.07366 phi = 0.73654 e = 28.773 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.07791 eta = 0.562328 phi = 1.39269 e = 4.73982 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.12235 eta -2.07366 phi 0.73654 mass 3.37175e-07
+ id 13 pt 4.07791 eta 0.562328 phi 1.39269 mass 0
+
+ ------> Event 83
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 60 has fired L1_SingleMu20er
+Algo L1 62 has fired L1_SingleMu20
+Algo L1 63 has fired L1_SingleMu25er
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 86 has fired L1_SingleMu16_Eta2p1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 122 has fired L1_SingleMu18er
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+AlCa_RPCMuonNormalisation_v9 445 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 5 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 29.1231 eta = 1.32005 phi = -2.60373 e = 58.4027 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+1 pt = 5.75643 eta = -1.46108 phi = 0.846179 e = 13.0746 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+
+ hltL3MuonCandidates 
+ id 13 pt 5.75643 eta -1.46108 phi 0.846179 mass 0
+ id 13 pt 29.1231 eta 1.32005 phi -2.60373 mass 0
+
+ ------> Event 84
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 8.70761 eta = -0.675378 phi = -0.0598117 e = 10.7702 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 43
+1 pt = 4.64474 eta = -0.726329 phi = 0.433916 e = 5.92474 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 42
+ This is it --> 14 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 8.70761 eta = -0.675378 phi = -0.0598117 e = 10.7702 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 43
+1 pt = 4.64474 eta = -0.726329 phi = 0.433916 e = 5.92474 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 42
+ This is it --> 24 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 8.70761 eta = -0.675378 phi = -0.0598117 e = 10.7702 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 43
+1 pt = 4.64474 eta = -0.726329 phi = 0.433916 e = 5.92474 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 42
+ This is it --> 27 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 8.70761 eta = -0.675378 phi = -0.0598117 e = 10.7702 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 43
+1 pt = 4.64474 eta = -0.726329 phi = 0.433916 e = 5.92474 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 42
+
+ hltL3MuonCandidates 
+ id 13 pt 4.64474 eta -0.726329 phi 0.433916 mass 8.42937e-08
+ id 13 pt 8.70761 eta -0.675378 phi -0.0598117 mass 1.19209e-07
+
+ ------> Event 85
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 7 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 7.57882 eta = 0.217159 phi = 0.48769 e = 7.75822 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 2.38683 eta = 1.84013 phi = -0.42808 e = 7.70484 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 9 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 7.57882 eta = 0.217159 phi = 0.48769 e = 7.75822 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 2.38683 eta = 1.84013 phi = -0.42808 e = 7.70484 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 7.57882 eta = 0.217159 phi = 0.48769 e = 7.75822 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+1 pt = 2.38683 eta = 1.84013 phi = -0.42808 e = 7.70484 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 7.57882 eta 0.217159 phi 0.48769 mass 8.42937e-08
+ id 13 pt 2.38683 eta 1.84013 phi -0.42808 mass 0
+
+ ------> Event 86
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 3.7657 eta = 1.42713 phi = 2.72066 e = 8.29717 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.19819 eta = -0.375578 phi = -1.40099 e = 4.49779 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 3.7657 eta 1.42713 phi 2.72066 mass 0
+ id 13 pt 4.19819 eta -0.375578 phi -1.40099 mass 0
+
+ ------> Event 87
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.84058 eta = 0.331484 phi = -2.57151 e = 7.21986 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 4.82209 eta = -0.0651896 phi = 1.8753 e = 4.83234 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.84058 eta = 0.331484 phi = -2.57151 e = 7.21986 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 4.82209 eta = -0.0651896 phi = 1.8753 e = 4.83234 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.84058 eta 0.331484 phi -2.57151 mass 0
+ id 13 pt 4.82209 eta -0.0651896 phi 1.8753 mass 5.96046e-08
+
+ ------> Event 88
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 74 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_20_12
+Algo L1 77 has fired L1_Mu10er_JetC12_WdEtaPhi1_DoubleJetC_32_12
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4JpsiDisplacedL3Filtered 1
+HLT_DoubleMu4_Jpsi_Displaced_v12 149 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDoubleMu3p5LowMassDisplacedL3Filtered 1
+HLT_DoubleMu3p5_LowMass_Displaced_v6 154 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDoubleMu4JpsiDisplacedL3Filtered hltDoubleMu3p5LowMassDisplacedL3Filtered hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon10JpsiL3Filtered 3 2
+0 pt = 8.97891 eta = 0.0963804 phi = -1.46238 e = 9.02064 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 26
+1 pt = 8.37801 eta = 0.164162 phi = -1.81525 e = 8.49116 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 25
+ This is it --> 13 hltDimuon8JpsiL3Filtered 2 2
+0 pt = 8.97891 eta = 0.0963804 phi = -1.46238 e = 9.02064 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 26
+1 pt = 8.37801 eta = 0.164162 phi = -1.81525 e = 8.49116 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 25
+ This is it --> 23 hltDoubleMu3p5LowMassDisplacedL3Filtered 1 2
+0 pt = 8.97891 eta = 0.0963804 phi = -1.46238 e = 9.02064 id = -13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 26
+1 pt = 8.37801 eta = 0.164162 phi = -1.81525 e = 8.49116 id = 13 label: hltDoubleMu3p5LowMassDisplacedL3Filtered:HLT:: 25
+ This is it --> 26 hltDoubleMu4JpsiDisplacedL3Filtered 0 2
+0 pt = 8.97891 eta = 0.0963804 phi = -1.46238 e = 9.02064 id = -13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 26
+1 pt = 8.37801 eta = 0.164162 phi = -1.81525 e = 8.49116 id = 13 label: hltDoubleMu4JpsiDisplacedL3Filtered:HLT:: 25
+
+ hltL3MuonCandidates 
+ id 13 pt 8.37801 eta 0.164162 phi -1.81525 mass 1.19209e-07
+ id 13 pt 8.97891 eta 0.0963804 phi -1.46238 mass 1.19209e-07
+
+ ------> Event 89
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+49 HLTMuonDimuonL3Filter hltUpsilonMuonL3Filtered 1
+HLT_Dimuon0_Upsilon_Muon_v18 169 1 1 0 1 
+DST_Physics_v5 428 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltUpsilonMuonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.6788 eta = -0.168896 phi = 0.445955 e = 6.77428 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 7
+1 pt = 4.84209 eta = -0.245635 phi = 2.28277 e = 4.9889 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 8
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.6788 eta = -0.168896 phi = 0.445955 e = 6.77428 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 7
+1 pt = 4.84209 eta = -0.245635 phi = 2.28277 e = 4.9889 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 8
+ This is it --> 139 hltUpsilonMuonL3Filtered 2 2
+0 pt = 6.6788 eta = -0.168896 phi = 0.445955 e = 6.77428 id = -13 label: hltUpsilonMuonL3Filtered:HLT:: 7
+1 pt = 4.84209 eta = -0.245635 phi = 2.28277 e = 4.9889 id = 13 label: hltUpsilonMuonL3Filtered:HLT:: 8
+
+ hltL3MuonCandidates 
+ id 13 pt 6.03734 eta -1.92795 phi 1.79702 mass 0
+ id 13 pt 6.6788 eta -0.168896 phi 0.445955 mass 0
+ id 13 pt 4.84209 eta -0.245635 phi 2.28277 mass -5.96046e-08
+
+ ------> Event 90
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 56 has fired L1_SingleMu16
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 97 has fired L1_TripleMu0_HighQ
+Algo L1 98 has fired L1_TripleMu_5_5_0
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 7.26812 eta = -0.10057 phi = -2.92949 e = 7.30491 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 7
+1 pt = 7.65672 eta = -0.0946812 phi = 0.521806 e = 7.69107 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 6
+
+ hltL3MuonCandidates 
+ id 13 pt 7.65672 eta -0.0946812 phi 0.521806 mass -5.96046e-08
+ id 13 pt 7.26812 eta -0.10057 phi -2.92949 mass 5.96046e-08
+
+ ------> Event 91
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 98 has fired L1_TripleMu_5_5_0
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 10 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 6.0922 eta = -0.187324 phi = -3.04389 e = 6.1994 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 4
+1 pt = 4.30953 eta = 0.788339 phi = -1.35276 e = 5.71947 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 5
+ This is it --> 12 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 6.0922 eta = -0.187324 phi = -3.04389 e = 6.1994 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 4
+1 pt = 4.30953 eta = 0.788339 phi = -1.35276 e = 5.71947 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 6.0922 eta -0.187324 phi -3.04389 mass 8.42937e-08
+ id 13 pt 4.30953 eta 0.788339 phi -1.35276 mass -5.96046e-08
+
+ ------> Event 92
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltTauTo2MuL3Filtered 1
+HLT_Tau2Mu_ItTrack_v7 172 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltTauTo2MuL3Filtered 
+
+ Trigger objects 
+ This is it --> 130 hltTauTo2MuL3Filtered 0 2
+0 pt = 4.72499 eta = -1.17635 phi = 2.6262 e = 8.38903 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 2
+1 pt = 2.44402 eta = -1.55938 phi = 2.54764 e = 6.06869 id = 13 label: hltTauTo2MuL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.72499 eta -1.17635 phi 2.6262 mass 0
+ id 13 pt 2.44402 eta -1.55938 phi 2.54764 mass 0
+
+ ------> Event 93
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 5.28949 eta = -1.55799 phi = -1.54407 e = 13.1175 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.81718 eta = 1.69166 phi = 0.725482 e = 13.5187 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.28949 eta -1.55799 phi -1.54407 mass 0
+ id 13 pt 4.81718 eta 1.69166 phi 0.725482 mass 0
+
+ ------> Event 94
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 121 has fired L1_HTT50
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.347 eta = -1.73761 phi = -1.75579 e = 12.736 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 4.54618 eta = 1.20599 phi = -2.86899 e = 8.27284 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 4.347 eta -1.73761 phi -1.75579 mass 0
+ id 13 pt 4.54618 eta 1.20599 phi -2.86899 mass -1.19209e-07
+
+ ------> Event 95
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 9 has fired L1_TripleMu0
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 97 has fired L1_TripleMu0_HighQ
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon8JpsiL3Filtered 1
+HLT_Dimuon8_Jpsi_v7 164 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon10JpsiL3Filtered 1
+HLT_Dimuon10_Jpsi_v6 166 1 1 0 1 
+49 HLTMuonDimuonL3Filter hltJpsiMuonL3Filtered 1
+HLT_Dimuon0_Jpsi_Muon_v18 168 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 3 : hltDimuon8JpsiL3Filtered hltDimuon10JpsiL3Filtered hltJpsiMuonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 2 hltDimuon10JpsiL3Filtered 1 2
+0 pt = 9.14313 eta = -1.1155 phi = -1.72565 e = 15.4466 id = -13 label: hltDimuon10JpsiL3Filtered:HLT:: 6
+1 pt = 2.75113 eta = -1.35887 phi = -1.16358 e = 5.70686 id = 13 label: hltDimuon10JpsiL3Filtered:HLT:: 7
+ This is it --> 12 hltDimuon8JpsiL3Filtered 0 2
+0 pt = 9.14313 eta = -1.1155 phi = -1.72565 e = 15.4466 id = -13 label: hltDimuon8JpsiL3Filtered:HLT:: 6
+1 pt = 2.75113 eta = -1.35887 phi = -1.16358 e = 5.70686 id = 13 label: hltDimuon8JpsiL3Filtered:HLT:: 7
+ This is it --> 24 hltJpsiMuonL3Filtered 2 2
+0 pt = 9.14313 eta = -1.1155 phi = -1.72565 e = 15.4466 id = -13 label: hltJpsiMuonL3Filtered:HLT:: 6
+1 pt = 2.75113 eta = -1.35887 phi = -1.16358 e = 5.70686 id = 13 label: hltJpsiMuonL3Filtered:HLT:: 7
+
+ hltL3MuonCandidates 
+ id 13 pt 9.14313 eta -1.1155 phi -1.72565 mass 0
+ id 13 pt 2.75113 eta -1.35887 phi -1.16358 mass 0
+ id 13 pt 3.0501 eta -1.46795 phi 2.82056 mass 0
+
+ ------> Event 96
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDoubleMu4Dimuon7ForwardBsL3Filtered 1
+HLT_DoubleMu4_Dimuon7_Bs_Forward_v5 153 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDoubleMu4Dimuon7ForwardBsL3Filtered 
+
+ Trigger objects 
+ This is it --> 21 hltDoubleMu4Dimuon7ForwardBsL3Filtered 0 2
+0 pt = 6.34211 eta = 1.4756 phi = -2.08621 e = 14.5942 id = -13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 2
+1 pt = 6.81937 eta = 1.94314 phi = -2.81679 e = 24.2903 id = 13 label: hltDoubleMu4Dimuon7ForwardBsL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.34211 eta 1.4756 phi -2.08621 mass -1.68587e-07
+ id 13 pt 6.81937 eta 1.94314 phi -2.81679 mass 0
+
+ ------> Event 97
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon8UpsilonL3Filtered 1
+HLT_Dimuon8_Upsilon_v6 165 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon11UpsilonL3Filtered 1
+HLT_Dimuon11_Upsilon_v6 167 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 4 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered hltDimuon8UpsilonL3Filtered hltDimuon11UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 3 hltDimuon11UpsilonL3Filtered 3 2
+0 pt = 8.78222 eta = 0.0346157 phi = 3.01338 e = 8.78748 id = 13 label: hltDimuon11UpsilonL3Filtered:HLT:: 3
+1 pt = 5.42375 eta = -1.18249 phi = 2.47876 e = 9.67866 id = -13 label: hltDimuon11UpsilonL3Filtered:HLT:: 2
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 8.78222 eta = 0.0346157 phi = 3.01338 e = 8.78748 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+1 pt = 5.42375 eta = -1.18249 phi = 2.47876 e = 9.67866 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 8.78222 eta = 0.0346157 phi = 3.01338 e = 8.78748 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+1 pt = 5.42375 eta = -1.18249 phi = 2.47876 e = 9.67866 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+ This is it --> 13 hltDimuon8UpsilonL3Filtered 2 2
+0 pt = 8.78222 eta = 0.0346157 phi = 3.01338 e = 8.78748 id = 13 label: hltDimuon8UpsilonL3Filtered:HLT:: 3
+1 pt = 5.42375 eta = -1.18249 phi = 2.47876 e = 9.67866 id = -13 label: hltDimuon8UpsilonL3Filtered:HLT:: 2
+
+ hltL3MuonCandidates 
+ id 13 pt 5.42375 eta -1.18249 phi 2.47876 mass -1.19209e-07
+ id 13 pt 8.78222 eta 0.0346157 phi 3.01338 mass 1.19209e-07
+
+ ------> Event 98
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 42 has fired L1_SingleMu14_Eta2p1
+Algo L1 44 has fired L1_DoubleMu_10_Open
+Algo L1 45 has fired L1_DoubleMu_10_3p5
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 87 has fired L1_SingleMu12er
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+Algo L1 124 has fired L1_DoubleMu_12_5
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+AlCa_RPCMuonNoHits_v9 444 1 1 0 2 
+AlCa_RPCMuonNormalisation_v9 445 1 1 0 10 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 4.47661 eta = 1.41042 phi = 0.766384 e = 9.71806 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 4
+1 pt = 14.7048 eta = 0.975748 phi = -2.53651 e = 22.2782 id = 13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 5
+
+ hltL3MuonCandidates 
+ id 13 pt 4.47661 eta 1.41042 phi 0.766384 mass 0
+ id 13 pt 14.7048 eta 0.975748 phi -2.53651 mass 2.38419e-07
+
+ ------> Event 99
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 58 has fired L1_DoubleMu_5er_0er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+Algo L1 95 has fired L1_DoubleMu5_v1
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon3p5SameSignL3Filtered 1
+HLT_Dimuon3p5_SameSign_v6 170 1 1 0 6 
+HLTriggerFinalPath 451 1 1 0 1 
+1 1 : hltDimuon3p5SameSignL3Filtered 
+
+ Trigger objects 
+ This is it --> 8 hltDimuon3p5SameSignL3Filtered 0 2
+0 pt = 6.87031 eta = 0.308716 phi = 0.426085 e = 7.2003 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 2
+1 pt = 5.1388 eta = -0.507404 phi = -0.193176 e = 5.81463 id = -13 label: hltDimuon3p5SameSignL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 6.87031 eta 0.308716 phi 0.426085 mass 0
+ id 13 pt 5.1388 eta -0.507404 phi -0.193176 mass 0
+
+ ------> Event 100
+Algo L1 3 has fired L1_DoubleJet20
+Algo L1 26 has fired L1_DoubleMu0_HighQ_EtaCuts
+Algo L1 54 has fired L1_DoubleMu3er_HighQ_WdEta22
+Algo L1 83 has fired L1_DoubleJet24_v1
+Algo L1 93 has fired L1_DoubleMu_3er_0er_HighQ_WdEta22
+
+ HLT - tigger results 
+48 HLTMuonDimuonL3Filter hltDimuon5UpsilonL3Filtered 1
+HLT_Dimuon5_Upsilon_v6 160 1 1 0 1 
+48 HLTMuonDimuonL3Filter hltDimuon7UpsilonL3Filtered 1
+HLT_Dimuon7_Upsilon_v7 162 1 1 0 1 
+HLTriggerFinalPath 451 1 1 0 1 
+1 2 : hltDimuon5UpsilonL3Filtered hltDimuon7UpsilonL3Filtered 
+ MORE THAN ONE OBJECT SELECTED 
+
+ Trigger objects 
+ This is it --> 9 hltDimuon5UpsilonL3Filtered 0 2
+0 pt = 5.09932 eta = 0.447943 phi = -0.521948 e = 5.61953 id = 13 label: hltDimuon5UpsilonL3Filtered:HLT:: 2
+1 pt = 3.80443 eta = -1.18788 phi = -1.58101 e = 6.81941 id = -13 label: hltDimuon5UpsilonL3Filtered:HLT:: 3
+ This is it --> 11 hltDimuon7UpsilonL3Filtered 1 2
+0 pt = 5.09932 eta = 0.447943 phi = -0.521948 e = 5.61953 id = 13 label: hltDimuon7UpsilonL3Filtered:HLT:: 2
+1 pt = 3.80443 eta = -1.18788 phi = -1.58101 e = 6.81941 id = -13 label: hltDimuon7UpsilonL3Filtered:HLT:: 3
+
+ hltL3MuonCandidates 
+ id 13 pt 5.09932 eta 0.447943 phi -0.521948 mass 0
+ id 13 pt 3.80443 eta -1.18788 phi -1.58101 mass -8.42937e-08

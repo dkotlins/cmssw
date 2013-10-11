@@ -1,0 +1,52 @@
+
+
+18  hltDimuon6p5BarrelJpsiL3Filtered:HLT:: number 9 ID = 13 pT = 15.0144 eta = 0.662356 phi = -2.6798 13
+19  hltDimuon6p5BarrelJpsiL3Filtered:HLT:: number 9 ID = -13 pT = 9.87906 eta = 0.579592 phi = -2.45223 -13
+20  hltDimuon6p5JpsiDisplacedL3Filtered:HLT:: number 11 ID = 13 pT = 15.0144 eta = 0.662356 phi = -2.6798 13
+21  hltDimuon6p5JpsiDisplacedL3Filtered:HLT:: number 11 ID = -13 pT = 9.87906 eta = 0.579592 phi = -2.45223 -13
+22  hltDimuon6p5JpsiL3Filtered:HLT:: number 12 ID = 13 pT = 15.0144 eta = 0.662356 phi = -2.6798 13
+23  hltDimuon6p5JpsiL3Filtered:HLT:: number 12 ID = -13 pT = 9.87906 eta = 0.579592 phi = -2.45223 -13
+24  hltDimuon6p5LowMassL3FilteredDisplaced:HLT:: number 13 ID = 13 pT = 15.0144 eta = 0.662356 phi = -2.6798 13
+25  hltDimuon6p5LowMassL3FilteredDisplaced:HLT:: number 13 ID = -13 pT = 9.87906 eta = 0.579592 phi = -2.45223 -13
+
+------------------------------------------
+
+
+exact match: HLT_DoubleMu3p5_Jpsi_Displaced_v2 HLT: HLT_DoubleMu3p5_Jpsi_Displaced_v2 result: 1
+close match: HLT_DoubleMu3p5_Jpsi_Displaced_v2 HLT: HLT_DoubleMu3p5_Jpsi_Displaced_v2 result: 1 in run 172411
+
+0  hltL1extraParticles number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+1  hltL1extraParticles number -1 ID = 0 pT = 7 eta = -0.75 phi = -2.09439 0
+2  hltL2MuonCandidates number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+3  hltL2MuonCandidates number -1 ID = 13 pT = 7.70631 eta = -0.743224 phi = -2.43449 13
+4  hltL3MuonCandidates number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+5  hltL3MuonCandidates number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
+6  hltDiMuon3L2PreFiltered0:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+7  hltDiMuon3L2PreFiltered0:HLT:: number -1 ID = 13 pT = 7.70631 eta = -0.743224 phi = -2.43449 13
+8  hltDiMuonL3PreFiltered8:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+9  hltDiMuonL3PreFiltered8:HLT:: number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
+10  hltDimuonL1Filtered0:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+11  hltDimuonL1Filtered0:HLT:: number -1 ID = 0 pT = 7 eta = -0.75 phi = -2.09439 0
+12  hltDimuonL2PreFiltered0:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+13  hltDimuonL2PreFiltered0:HLT:: number -1 ID = 13 pT = 7.70631 eta = -0.743224 phi = -2.43449 13
+14  hltDisplacedmumuFilterJpsi:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+15  hltDisplacedmumuFilterJpsi:HLT:: number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
+16  hltDisplacedmumuFilterLowMass:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+17  hltDisplacedmumuFilterLowMass:HLT:: number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
+18  hltL1DoubleMuon3L2Filtered7:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+19  hltL1DoubleMuon3L2Filtered7:HLT:: number -1 ID = 13 pT = 7.70631 eta = -0.743224 phi = -2.43449 13
+20  hltL1sL1DoubleMu0:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+21  hltL1sL1DoubleMu0:HLT:: number -1 ID = 0 pT = 7 eta = -0.75 phi = -2.09439 0
+22  hltL1sL1DoubleMu3:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+23  hltL1sL1DoubleMu3:HLT:: number -1 ID = 0 pT = 7 eta = -0.75 phi = -2.09439 0
+24  hltL1sL1SingleMu10:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+25  hltL1sL1SingleMu12:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+26  hltL1sL1SingleMu16:HLT:: number -1 ID = 0 pT = 18 eta = -0.75 phi = -2.83616 0
+27  hltL2Mu10L2Filtered10:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+28  hltL2Mu12L2QualFiltered12:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+29  hltL2Mu16L2QualFiltered16:HLT:: number -1 ID = -13 pT = 16.7094 eta = -0.765845 phi = -2.65712 -13
+30  hltSingleMu13L3Filtered13:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+31  hltVertexmumuFilterJpsiBarrel:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+32  hltVertexmumuFilterJpsiBarrel:HLT:: number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
+33  hltVertexmumuFilterJpsiXBarrel:HLT:: number -1 ID = -13 pT = 16.5926 eta = -0.749598 phi = -2.65667 -13
+34  hltVertexmumuFilterJpsiXBarrel:HLT:: number -1 ID = 13 pT = 8.77394 eta = -0.715161 phi = -2.40484 13
