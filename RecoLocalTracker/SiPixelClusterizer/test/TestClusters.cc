@@ -4,6 +4,7 @@
 // Creation Date:  Initial version. 3/06
 // Modify to work with CMSSW354, 11/03/10 d.k.
 // Modify to work with CMSSW620, SLC6, CMSSW700, 10/10/13 d.k.
+// Change to ByToken (clusters only)
 //--------------------------------------------
 #include <memory>
 #include <string>
@@ -26,7 +27,6 @@
 
 #include "DataFormats/Common/interface/EDProduct.h"
 
-//#include "DataFormats/SiPixelCluster/interface/SiPixelClusterCollection.h"
 #include "DataFormats/SiPixelCluster/interface/SiPixelCluster.h"
 #include "DataFormats/Common/interface/DetSetVector.h"
 #include "DataFormats/Common/interface/Ref.h"
@@ -816,6 +816,8 @@ class TestClusters : public edm::EDAnalyzer {
   //float rocHits[3][10]; // layer, ids, store hits in 30 rocs
   //float moduleHits[3][10]; // layer, ids, store hits in 30 modules
 
+  // Needed for the ByToken method
+  edm::EDGetTokenT<edmNew::DetSetVector<SiPixelCluster> > myClus;
 
   //TFile* hFile;
   TH1D *hdetunit;
@@ -969,6 +971,10 @@ TestClusters::TestClusters(edm::ParameterSet const& conf)
   select2 = conf.getUntrackedParameter<int>("Select2",0);
   //src_ =  conf.getParameter<edm::InputTag>( "src" );
   if(PRINT) cout<<" Construct "<<endl;
+
+  // For the ByToken method
+  myClus = consumes<edmNew::DetSetVector<SiPixelCluster> >(conf.getParameter<edm::InputTag>( "src" ));
+
 
 }
 // Virtual destructor needed.
@@ -2059,7 +2065,10 @@ void TestClusters::analyze(const edm::Event& e,
 
   // Get Cluster Collection from InputTag
   edm::Handle< edmNew::DetSetVector<SiPixelCluster> > clusters;
-  e.getByLabel( src_ , clusters);
+  //e.getByLabel( src_ , clusters);
+  // New By Token method
+  e.getByToken( myClus , clusters);
+
 
   const edmNew::DetSetVector<SiPixelCluster>& input = *clusters;     
   int numOf = input.size();
