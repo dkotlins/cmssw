@@ -3,6 +3,7 @@
 // Author: Danek Kotlinski 
 // Creation Date:  Initial version. 3/06
 // Modify to work with CMSSW620, 8/13, CMSSW700, 10/13 d.k.
+// Add ByToken data access.
 //--------------------------------------------
 #include <memory>
 #include <string>
@@ -22,6 +23,7 @@
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "FWCore/Utilities/interface/InputTag.h"
+//#include "FWCore/Utilities/interface/EDGetToken.h"
 
 #include "DataFormats/Common/interface/EDProduct.h"
 
@@ -31,8 +33,6 @@
 #include "DataFormats/Common/interface/Ref.h"
 #include "DataFormats/DetId/interface/DetId.h"
 
-//#include "DataFormats/SiPixelDetId/interface/PXBDetId.h" 
-//#include "DataFormats/SiPixelDetId/interface/PXFDetId.h" 
 #include "DataFormats/SiPixelDetId/interface/PixelSubdetector.h"
 #include "DataFormats/SiPixelDetId/interface/PixelBarrelName.h"
 
@@ -102,6 +102,9 @@ class ReadPixClusters : public edm::EDAnalyzer {
   int countEvents, countAllEvents;
   double sumClusters;
 
+  // Needed for the ByToken method
+  edm::EDGetTokenT<edmNew::DetSetVector<SiPixelCluster> > myPROD;
+
   //TFile* hFile;
   TH1F *hdetunit;
   TH1F *hpixid,*hpixsubid,
@@ -145,9 +148,14 @@ class ReadPixClusters : public edm::EDAnalyzer {
 // Contructor, empty.
 ReadPixClusters::ReadPixClusters(edm::ParameterSet const& conf) 
   : conf_(conf), src_(conf.getParameter<edm::InputTag>( "src" )) { 
+
   printLocal = conf.getUntrackedParameter<bool>("Verbosity",false);
   //src_ =  conf.getParameter<edm::InputTag>( "src" );
+
   cout<<" Construct "<<printLocal<<endl;
+
+  // For the ByToken method
+  myPROD = consumes<edmNew::DetSetVector<SiPixelCluster> >(conf.getParameter<edm::InputTag>( "src" ));
 
 }
 // Virtual destructor needed.
@@ -392,7 +400,11 @@ void ReadPixClusters::analyze(const edm::Event& e,
 
   // Get Cluster Collection from InputTag
   edm::Handle< edmNew::DetSetVector<SiPixelCluster> > clusters;
-  e.getByLabel( src_ , clusters);
+  //e.getByLabel( src_ , clusters);
+
+  // New By Token method
+  e.getByToken( myPROD , clusters);
+
 
   const edmNew::DetSetVector<SiPixelCluster>& input = *clusters;     
   int numOf = input.size();
