@@ -45,7 +45,7 @@ triggerSelection = cms.EDFilter( "TriggerResultsFilter",
 
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(1000)
+    input = cms.untracked.int32(100)
 )
 
 process.MessageLogger = cms.Service("MessageLogger",
@@ -1279,7 +1279,7 @@ process.GlobalTag.globaltag = "GR_P_V40::All"
 #process.GlobalTag.globaltag = 'CRAFT09_R_V4::All'
 
 process.d = cms.EDAnalyzer("TestClusters",
-    Verbosity = cms.untracked.bool(False),
+    Verbosity = cms.untracked.bool(True),
     src = cms.InputTag("siPixelClusters"),
     Select1 = cms.untracked.int32(1),  # cut on the num of dets <4 skip, 0 means 4 default 
     Select2 = cms.untracked.int32(0),  # 6 no bptx, 0 no selection                               
