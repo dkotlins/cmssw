@@ -23,11 +23,10 @@
 #include "FWCore/ParameterSet/interface/ParameterSet.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "FWCore/Utilities/interface/InputTag.h"
-//#include "FWCore/Utilities/interface/EDGetToken.h"
+//#include "FWCore/Utilities/interface/EDGetToken.h"  // not needed
 
 #include "DataFormats/Common/interface/EDProduct.h"
 
-//#include "DataFormats/SiPixelCluster/interface/SiPixelClusterCollection.h"
 #include "DataFormats/SiPixelCluster/interface/SiPixelCluster.h"
 #include "DataFormats/Common/interface/DetSetVector.h"
 #include "DataFormats/Common/interface/Ref.h"
