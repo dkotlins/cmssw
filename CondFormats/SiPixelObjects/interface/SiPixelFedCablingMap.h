@@ -17,7 +17,7 @@
 
 
 class SiPixelFedCablingTree;
-
+class TrackerTopology;
 
 class SiPixelFedCablingMap : public SiPixelFedCabling {
 
@@ -25,9 +25,11 @@ public:
 
   SiPixelFedCablingMap(const SiPixelFedCablingTree *cab);
 
-  SiPixelFedCablingMap(const std::string & version="") : theVersion(version) {}
+  SiPixelFedCablingMap(const std::string & version="") : theVersion(version) {
+    std::cout<<" DUPA "<<std::endl;}
 
   void initializeRocs();
+  void initializeRocs(const TrackerTopology *tt,bool phase1=false) const;
 
   virtual ~SiPixelFedCablingMap() {}
 
@@ -51,7 +53,9 @@ public:
 private:
   std::string theVersion;
   typedef std::map<Key, sipixelobjects::PixelROC> Map;
-  Map theMap; 
+  // Add mutable to be able to construct it 
+  mutable Map theMap;  
+
 
   COND_SERIALIZABLE;
 };

@@ -17,6 +17,7 @@
  * The Global coordinates are row and column in DetUnit.
  */
 
+class TrackerTopology;
 
 namespace sipixelobjects {
 
@@ -66,6 +67,7 @@ public:
   std::string print(int depth = 0) const;
 
   void initFrameConversion();
+  void initFrameConversion(const TrackerTopology *tt, bool phase1=false);
 
 private:
   uint32_t theDetUnit;
