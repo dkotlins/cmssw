@@ -27,6 +27,8 @@ SiPixelFrameReverter::SiPixelFrameReverter(const edm::EventSetup& iSetup, const 
   : map_(map)
 { 
   // Build map
+  std::cout<<" SiPixelFramReverter CTOR "<<std::endl;
+  // maybe here I can call roc initilization 
   buildStructure(iSetup);
 }
 
@@ -35,7 +37,7 @@ void SiPixelFrameReverter::buildStructure(const edm::EventSetup& iSetup)
 {
 
   // Create map connecting each detId to appropriate SiPixelFrameConverter
-
+  cout<<" in reverter "<<endl;
   edm::ESHandle<TrackerGeometry> pDD;
   iSetup.get<TrackerDigiGeometryRecord>().get( pDD );
 
@@ -47,7 +49,6 @@ void SiPixelFrameReverter::buildStructure(const edm::EventSetup& iSetup)
       uint32_t id = detId();
       std::vector<CablingPathToDetUnit> paths = map_->pathToDetUnit(id);
       DetToFedMap.insert(pair< uint32_t,std::vector<CablingPathToDetUnit> > (id,paths));
-
     }
   }  // for(TrackerGeometry::DetContainer::const_iterator
 }  // end buildStructure
@@ -58,15 +59,27 @@ int SiPixelFrameReverter::toCabling(
 {
   if(!hasDetUnit(detector.rawId)) return -1;
   std::vector<CablingPathToDetUnit> path = DetToFedMap.find(detector.rawId)->second;
-  typedef std::vector<CablingPathToDetUnit>::const_iterator IT;
-  for  (IT it = path.begin(); it != path.end(); ++it) {
-    const PixelROC * roc = map_->findItem(*it);
-    if (!roc) return -3;
-    if (! roc->rawId() == detector.rawId) return -4;
+  //cout<<" toCabling "<<endl;
 
+  typedef std::vector<CablingPathToDetUnit>::const_iterator IT;
+  int ii=0;
+  for  (IT it = path.begin(); it != path.end(); ++it) {
+    ii++;
+    const PixelROC * roc = map_->findItem(*it);
+    //cout<<" 1 "<<ii<<endl;
+    if (!roc) return -3;
+    //cout<<" 2 "<<ii<<endl;
+    if (! roc->rawId() == detector.rawId) return -4;
+    //cout<<" 3 "<<ii<<" "<<it->link<<" "<< it->roc<<endl;
+ 
+    
     GlobalPixel global = {detector.row, detector.col};
     LocalPixel local = roc->toLocal(global);
+    //cout<<" 4 "<<ii<<" "<<local.dcol()<<" "<<local.pxid()<<" "<<detector.row<<" "<<detector.col<<endl;
+  
     if(!local.valid()) continue;
+    //cout<<" 5 "<<ii<<endl;
+
     ElectronicIndex cabIdx = {static_cast<int>(it->link), static_cast<int>(it->roc), local.dcol(), local.pxid()};
     cabling = cabIdx;
 

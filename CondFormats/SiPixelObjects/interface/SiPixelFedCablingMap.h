@@ -26,7 +26,7 @@ public:
   SiPixelFedCablingMap(const SiPixelFedCablingTree *cab);
 
   SiPixelFedCablingMap(const std::string & version="") : theVersion(version) {
-    std::cout<<" DUPA "<<std::endl;}
+    std::cout<<" SiPixelFedCablingMap constructor: NOT CALLED "<<theVersion<<std::endl;}
 
   void initializeRocs();
   void initializeRocs(const TrackerTopology *tt,bool phase1=false) const;

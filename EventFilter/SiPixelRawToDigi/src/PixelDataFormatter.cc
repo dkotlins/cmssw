@@ -72,6 +72,7 @@ PixelDataFormatter::PixelDataFormatter( const SiPixelFedCabling* map, bool phase
   ROC_shift  = DCOL_shift + DCOL_bits;
 
   if(phase1) {  // for phase 1
+    //cout<<" phase 1 formatter"<<endl;
     LINK_shift = ROC_shift + ROC_bits1;
     LINK_mask = ~(~PixelDataFormatter::Word32(0) << LINK_bits1);
     ROC_mask  = ~(~PixelDataFormatter::Word32(0) << ROC_bits1);
@@ -247,6 +248,7 @@ void PixelDataFormatter::formatRawData(unsigned int lvl1_ID, RawData & fedRawDat
     for (DetDigis::const_iterator it = detDigis.begin(); it != detDigis.end(); it++) {
       theDigiCounter++;
       const PixelDigi & digi = (*it);
+      //cout<<" convert "<<rawId<<endl;
       int status = digi2word( rawId, digi, words);
       if (status) {
          LogError("FormatDataException")
@@ -258,6 +260,7 @@ void PixelDataFormatter::formatRawData(unsigned int lvl1_ID, RawData & fedRawDat
     } // for (DetDigis
   } // for (Digis
   LogTrace(" allDetDigis/hasDetDigis : ") << allDetDigis<<"/"<<hasDetDigis;
+  //cout<< allDetDigis<<"/"<<hasDetDigis<<endl;
 
   typedef std::map<int, vector<Word32> >::const_iterator RI;
   for (RI feddata = words.begin(); feddata != words.end(); feddata++) {
@@ -299,19 +302,22 @@ void PixelDataFormatter::formatRawData(unsigned int lvl1_ID, RawData & fedRawDat
     } // if (word !=
     fedRawData[fedId] = *rawData;
     delete rawData;
+    //cout<<" finish for fed "<<fedId<<" "<<nWord32InFed <<endl;
   } // for (RI feddata 
 }
 
 int PixelDataFormatter::digi2word( cms_uint32_t detId, const PixelDigi& digi, 
     std::map<int, vector<Word32> > & words) const
 {
-  LogDebug("PixelDataFormatter")
-// <<" detId: " << detId 
+  LogDebug("PixelDataFormatter") // <<" detId: " << detId 
   <<print(digi);
+
+  //cout<<" in digi2word detId "<<" "<<print(digi)<<endl;
 
   DetectorIndex detector = {detId, digi.row(), digi.column()};
   ElectronicIndex cabling;
   int fedId  = theFrameReverter->toCabling(cabling, detector);
+  //cout<< fedId<<endl;
   if (fedId<0) return fedId;
 
   Word32 word =
@@ -322,6 +328,9 @@ int PixelDataFormatter::digi2word( cms_uint32_t detId, const PixelDigi& digi,
            | (digi.adc() << ADC_shift);
   words[fedId].push_back(word);
   theWordCounter++;
+
+  //cout<<cabling.link <<" "<<cabling.roc <<" "<<cabling.dcol<<" "<<cabling.pxid 
+  //  <<" "<<theWordCounter<<endl;
 
   return 0;
 }

@@ -14,8 +14,8 @@ using namespace sipixelobjects;
 SiPixelFrameConverter::SiPixelFrameConverter(const SiPixelFedCabling* map, int fedId)
   : theFedId(fedId), theMap(map),
     theTree(dynamic_cast<SiPixelFedCablingTree const *>(map)),
-    theFed(theTree ? theTree->fed(fedId) : nullptr)
-{}
+    theFed(theTree ? theTree->fed(fedId) : nullptr) {}
+//{cout<<"SiPixelFrameConverter"<<endl;}
 
 bool SiPixelFrameConverter::hasDetUnit(uint32_t rawId) const
 {

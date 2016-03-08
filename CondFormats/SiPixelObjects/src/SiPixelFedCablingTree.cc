@@ -1,4 +1,6 @@
 #include "CondFormats/SiPixelObjects/interface/SiPixelFedCablingTree.h"
+#include "DataFormats/TrackerCommon/interface/TrackerTopology.h"
+
 #include <algorithm>
 #include <sstream>
 #include <iostream>
@@ -7,6 +9,22 @@ using namespace std;
 using namespace sipixelobjects;
 
 typedef std::unordered_map<int, SiPixelFedCablingTree::PixelFEDCabling>::const_iterator IMAP;
+
+SiPixelFedCablingTree::SiPixelFedCablingTree(const std::string & version) 
+  : theVersion(version) {
+  std::cout<<" SiPixelFedCablingTree CTOR " << std::endl; // this is called , naybe put init he
+}
+
+SiPixelFedCablingTree::SiPixelFedCablingTree(const TrackerTopology *tt, 
+			      bool phase1, const std::string & version) 
+  : theVersion(version) {
+
+  std::cout 
+    << "SiPixelFedCablingTree::initializeRocs - new initialize PixelRocs, phase1 " 
+    <<phase1<< std::endl;
+  //for (auto & v : theMap) v.second.initFrameConversion(tt,phase1);
+  std::cout<<" init rocs done "<<std::endl;
+}
 
 std::vector<sipixelobjects::CablingPathToDetUnit> SiPixelFedCablingTree::pathToDetUnit(
       uint32_t rawDetId) const
@@ -19,8 +37,10 @@ std::vector<sipixelobjects::CablingPathToDetUnit> SiPixelFedCablingTree::pathToD
       if (!link) continue;
       unsigned int numberOfRocs = link->numberOfROCs();
       for(unsigned int idxRoc = 1; idxRoc <= numberOfRocs; idxRoc++) {
-        const PixelROC * roc = link->roc(idxRoc);
+        const PixelROC * roc = link->roc(idxRoc);	
         if (rawDetId == roc->rawId() ) {
+	  cout<<" tree "<<idxLink<<" "<<numberOfRocs<<" "<<idxRoc<<" "<<aFed.id()
+	      <<" "<<link->id()<<" "<<roc->idInLink()<<endl;
           CablingPathToDetUnit path = {aFed.id(), link->id(), roc->idInLink()};
           result.push_back(path);
         } 

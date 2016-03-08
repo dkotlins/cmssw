@@ -63,10 +63,17 @@ public:
     return result;
   }
 
+  // recognise the detector side 
+  int bpixSidePhase0(uint32_t rawId) const;
+  int fpixSidePhase0(uint32_t rawId) const;
+  int bpixSidePhase1(uint32_t rawId) const;
+  int fpixSidePhase1(uint32_t rawId) const;
+
   /// printout for debug
   std::string print(int depth = 0) const;
 
   void initFrameConversion();
+  void initFrameConversionPhase1();
   void initFrameConversion(const TrackerTopology *tt, bool phase1=false);
 
 private:

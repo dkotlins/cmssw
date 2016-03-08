@@ -8,12 +8,20 @@
 #include "CondFormats/SiPixelObjects/interface/SiPixelFedCabling.h"
 #include "CondFormats/SiPixelObjects/interface/PixelFEDCabling.h"
 
+class TrackerTopology;
+
 class SiPixelFedCablingTree final : public  SiPixelFedCabling {
 
 public:
   typedef sipixelobjects::PixelFEDCabling PixelFEDCabling;
 
-  SiPixelFedCablingTree(const std::string & version="") : theVersion(version) {}
+  //SiPixelFedCablingTree(const std::string & version="") : theVersion(version) {
+  //std::cout<<" DUPA DUPA" << std::endl;} // this is called , naybe put init he
+
+  SiPixelFedCablingTree(const std::string & version="");
+
+  SiPixelFedCablingTree(const TrackerTopology *tt, bool phase1, 
+			const std::string & version=""); 
 
   virtual ~SiPixelFedCablingTree() {}
 

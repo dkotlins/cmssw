@@ -11,7 +11,8 @@ using namespace edm;
 using namespace sipixelobjects;
 
 FrameConversion::FrameConversion(bool bpix, int side, int rocIdInDetUnit) {
-  cout<<"FrameConversion - for phase1  "<<endl;
+  const bool PRINT = false;
+  if(PRINT) cout<<"FrameConversion - for phase1  "<<endl;
 
   int slopeRow =0;
   int slopeCol = 0;
@@ -19,7 +20,7 @@ FrameConversion::FrameConversion(bool bpix, int side, int rocIdInDetUnit) {
   int  colOffset = 0; 
  
   if (bpix ) { // bpix 
-    cout<<" for bpix, side "<<side<<" "<< rocIdInDetUnit<<endl;
+    if(PRINT) cout<<" for bpix, side "<<side<<" "<< rocIdInDetUnit<<endl;
     
     if (side==-1) {  // -Z side
 
@@ -55,7 +56,7 @@ FrameConversion::FrameConversion(bool bpix, int side, int rocIdInDetUnit) {
 
   } else { // fpix 
 
-    cout<<" for fpix, side "<<side<<endl;
+    if(PRINT) cout<<" for fpix, side "<<side<<endl;
     // for fpix follow Urs's code for pilot blade
     // no difference between panels
     if(side==-1) { // pannel 1
@@ -88,14 +89,11 @@ FrameConversion::FrameConversion(bool bpix, int side, int rocIdInDetUnit) {
   } // bpix/fpix
 
 
-  cout<<slopeRow<<" "<<slopeCol<<" "<<rowOffset<<" "<<colOffset<<endl;
+  if(PRINT)  cout<<slopeRow<<" "<<slopeCol<<" "<<rowOffset<<" "<<colOffset<<endl;
 
-  // for the moment comment out
-  
   theRowConversion      = LinearConversion(rowOffset,slopeRow);
   theCollumnConversion =  LinearConversion(colOffset, slopeCol);
   
-
 }
 
 

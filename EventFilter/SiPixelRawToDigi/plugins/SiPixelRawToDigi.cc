@@ -33,8 +33,8 @@
 #include "EventFilter/SiPixelRawToDigi/interface/PixelUnpackingRegions.h"
 #include "FWCore/Framework/interface/ConsumesCollector.h"
 
-#include "DataFormats/TrackerCommon/interface/TrackerTopology.h"
-#include "Geometry/Records/interface/TrackerTopologyRcd.h"
+//#include "DataFormats/TrackerCommon/interface/TrackerTopology.h"
+//#include "Geometry/Records/interface/TrackerTopologyRcd.h"
 
 
 #include "TH1D.h"
@@ -165,22 +165,22 @@ void SiPixelRawToDigi::produce( edm::Event& ev,
 // initialize cabling map or update if necessary
   if (recordWatcher.check( es )) {
     //Retrieve tracker topology from geometry
-    edm::ESHandle<TrackerTopology> tTopo;
-    es.get<TrackerTopologyRcd>().get(tTopo);
-    const TrackerTopology* tt = tTopo.product();
+    //edm::ESHandle<TrackerTopology> tTopo;
+    //es.get<TrackerTopologyRcd>().get(tTopo);
+    //const TrackerTopology* tt = tTopo.product();
 
     // cabling map, which maps online address (fed->link->ROC->local pixel) to offline (DetId->global pixel)
     edm::ESTransientHandle<SiPixelFedCablingMap> cablingMap;
     es.get<SiPixelFedCablingMapRcd>().get( cablingMap );
-
-   // init ROCs here 
-    cablingMap->initializeRocs(tt, usePhase1);
+ 
+    // init ROCs here  NO- non-treade safe
+    //cablingMap->initializeRocs(tt, usePhase1);  
 
     fedIds   = cablingMap->fedIds();
     cabling_ = cablingMap->cablingTree();
     LogDebug("map version:")<< cabling_->version();
   }
-// initialize quality record or update if necessary
+  // initialize quality record or update if necessary
   if (qualityWatcher.check( es )&&useQuality) {
     // quality info for dead pixel modules or ROCs
     edm::ESHandle<SiPixelQuality> qualityInfo;
@@ -194,7 +194,7 @@ void SiPixelRawToDigi::produce( edm::Event& ev,
   edm::Handle<FEDRawDataCollection> buffers;
   ev.getByToken(tFEDRawDataCollection, buffers);
 
-// create product (digis & errors)
+  // create product (digis & errors)
   std::auto_ptr< edm::DetSetVector<PixelDigi> > collection( new edm::DetSetVector<PixelDigi> );
   // collection->reserve(8*1024);
   std::auto_ptr< edm::DetSetVector<SiPixelRawDataError> > errorcollection( new edm::DetSetVector<SiPixelRawDataError> );
