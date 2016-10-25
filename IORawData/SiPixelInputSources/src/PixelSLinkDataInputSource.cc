@@ -156,7 +156,8 @@ PixelSLinkDataInputSource::PixelSLinkDataInputSource(const edm::ParameterSet& ps
   Storage & temp_file = *storage;
   //  IOSize n =
   temp_file.read((char*)&m_data,8);
-  if((m_data >> 60) != 0x5){ 
+  //if( (m_data >> 60) != 0x5){ 
+  if( (m_data & 0xFF0000000000000F) != 0x5000000000000000 ) {
     uint32_t runnum = m_data;
     if(m_runnumber!=-1)
       edm::LogInfo("") << "WARNING: observed run number encoded in S-Link dump. Overwriting run number as defined in .cfg file!!! Run number now set to " << runnum << " (was " << m_runnumber << ")";
@@ -181,17 +182,15 @@ bool PixelSLinkDataInputSource::setRunAndEventInfo(edm::EventID& id, edm::TimeVa
   //  uint32_t currenteventnumber = (m_data >> 32)&0x00ffffff;
   uint32_t eventnumber =(m_data >> 32)&0x00ffffff ;
   
-  do{
+  do {
     std::vector<uint64_t> buffer;
-  
- 
-  
     uint16_t count=0;
     eventnumber = (m_data >> 32)&0x00ffffff ;
     if(m_currenteventnumber==0)
       m_currenteventnumber=eventnumber;
     edm::LogInfo("PixelSLinkDataInputSource::produce()") << "**** event number = " << eventnumber << " global event number " << m_currenteventnumber << " data " << std::hex << m_data << std::dec << std::endl;
-    while ((m_data >> 60) != 0x5){
+    //while ((m_data >> 60) != 0x5){
+    while ( (m_data & 0xFF0000000000000F) != 0x5000000000000000 ) {
       //  std::cout << std::hex << m_data << std::dec << std::endl;
       if (count==0){
 	edm::LogWarning("") << "DATA CORRUPTION!" ;
@@ -222,11 +221,11 @@ bool PixelSLinkDataInputSource::setRunAndEventInfo(edm::EventID& id, edm::TimeVa
     //   std::cout << "fed id = " << fed_id << std::endl;
     buffer.push_back(m_data);
   
-    do{
+    do {
       m_file.read((char*)&m_data,8);
       buffer.push_back(m_data);
-    }
-    while((m_data >> 60) != 0xa);
+      //} while((m_data >> 60) != 0xa);
+    } while( (m_data & 0xFFFFC0000000F00F) != 0xA000000000000000 );
     //  std::cout << "read " <<  buffer.size() << " long words" << std::endl;
 
     auto rawData = std::make_unique<FEDRawData>(8*buffer.size());
@@ -249,6 +248,10 @@ bool PixelSLinkDataInputSource::setRunAndEventInfo(edm::EventID& id, edm::TimeVa
     
     // read the first data member of the next blob to check on event number
     int n =m_file.read((char*)&m_data,8);
+    if(m_file.eof() ) {
+      edm::LogInfo("") << "End of input file" ;
+      break;
+    }
     if (n==0) {
       edm::LogInfo("") << "End of input file" ;
     }
@@ -256,8 +259,7 @@ bool PixelSLinkDataInputSource::setRunAndEventInfo(edm::EventID& id, edm::TimeVa
     if(m_currenteventnumber<eventnumber)
       LogError("PixelSLinkDataInputSource") << " error, the previous event number (" << eventnumber << ") is LARGER than the next event number (" << m_currenteventnumber << ")" << std::endl;
 
-  }
-  while( eventnumber == m_currenteventnumber);
+  } while( eventnumber == m_currenteventnumber);
   
   uint32_t realeventno = synchronizeEvents();
   if(m_runnumber!=0)
