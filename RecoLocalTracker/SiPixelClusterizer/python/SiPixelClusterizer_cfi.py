@@ -35,7 +35,10 @@ phase1Pixel.toModify(siPixelClusters,
   VCaltoElectronOffset    = cms.int32(-60),  # L2-4: -60 +- 130
   VCaltoElectronOffset_L1 = cms.int32(-670), # L1:   -670 +- 220
   ChannelThreshold        = cms.int32(10),
+  SeedThreshold           = cms.int32(1000),
+  ClusterThreshold        = cms.int32(1000),
   ClusterThreshold_L1     = cms.int32(1000)
+
 )
 
 # Need these until phase2 pixel templates are used
