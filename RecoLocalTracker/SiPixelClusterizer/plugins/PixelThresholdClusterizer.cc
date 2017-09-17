@@ -274,19 +274,8 @@ void PixelThresholdClusterizer::copy_to_buffer( DigiIterator begin, DigiIterator
     if (adc!=adcOld) std::cout << "VI " << eqD  <<' '<< ic  <<' '<< end-begin <<' '<< i <<' '<< di->adc() <<' ' << adc <<' '<< adcOld << std::endl; else ++eqD;
 #endif
 
-    //if(layer_>0) int elec = calibrate(di->adc(),col,row);
-    //cout<<endl;
-
-    // add offset to layer 1 pixel charge 
-    if(layer_ == 1 || 1) {
-      //int adc0=adc;
-      //adc += 20000;
-      if(adc<-10000) {  // in electrons 
-	cout<<" negative amplitude "<<adc<<" "<<row<<" "<<col<<" "<<calibrate(di->adc(),col,row)
-	    <<" "<<detid_<<endl;   
-      }
-      if(adc<100) adc=100; // put all negative pixel charges into the 100 elec bin 
-    }
+    //if(adc<0) cout<<" negative amplitude "<<adc<<" "<<row<<" "<<col<<" "<<calibrate(di->adc(),col,row)<<" "<<detid_<<endl;   
+    if(adc<100) adc=100; // put all negative pixel charges into the 100 elec bin 
 
     if ( adc >= thePixelThreshold) {
       theBuffer.set_adc( row, col, adc);
